@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed-dim":"#a2d1b4","on-surface-variant":"#414844","surface-variant":"#e7e2d8","on-secondary":"#ffffff","surface-container-lowest":"#ffffff","primary-fixed":"#c6ebd5","error-container":"#ffdad6","inverse-primary":"#abcfba","outline":"#727973","surface-bright":"#fef9ef","on-secondary-fixed":"#281800","on-primary-fixed-variant":"#2d4d3d","error":"#ba1a1a","surface-container-high":"#ece8de","secondary-fixed-dim":"#edbf7a","surface-container-highest":"#e7e2d8","on-tertiary":"#ffffff","secondary":"#7b581d","secondary-fixed":"#ffddaf","secondary-container":"#ffd089","on-background":"#1d1c16","tertiary-fixed":"#bdeecf","outline-variant":"#c1c8c2","tertiary-container":"#002d1b","surface-tint":"#446554","on-primary-container":"#739582","surface-dim":"#dedad0","on-error-container":"#93000a","surface":"#fef9ef","on-tertiary-container":"#6a977d","on-surface":"#1d1c16","primary-fixed-dim":"#abcfba","primary":"#00160c","primary-container":"#0a2c1e","surface-container":"#f2ede3","on-primary-fixed":"#002114","inverse-surface":"#32302a","on-secondary-fixed-variant":"#604105","on-secondary-container":"#79571c","on-tertiary-fixed-variant":"#234f39","background":"#fef9ef","inverse-on-surface":"#f5f0e6","on-primary":"#ffffff","on-tertiary-fixed":"#002112","tertiary":"#00160b","surface-container-low":"#f8f3e9","on-error":"#ffffff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"gutter":"1.5rem","margin":"3rem","gutter-mobile":"1rem","space-sm":"0.5rem","margin-mobile":"1.25rem","space-xl":"2.5rem","space-xs":"0.25rem","space-md":"1rem","space-lg":"1.5rem"},"fontFamily":{"headline-md":["Bodoni Moda"],"label-lg":["Montserrat"],"title-lg":["Montserrat"],"headline-lg":["Bodoni Moda"],"headline-lg-mobile":["Bodoni Moda"],"display-hero":["Bodoni Moda"],"label-caps":["Montserrat"],"body-lg":["Montserrat"],"title-md":["Montserrat"],"body-md":["Montserrat"],"display-hero-mobile":["Bodoni Moda"],"headline-sm":["Bodoni Moda"]},"fontSize":{"headline-md":["28px",{"lineHeight":"36px","fontWeight":"500"}],"label-lg":["12px",{"lineHeight":"16px","fontWeight":"500"}],"title-lg":["18px",{"lineHeight":"26px","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"68px","fontWeight":"400"}],"label-caps":["11px",{"lineHeight":"16px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"300"}],"title-md":["15px",{"lineHeight":"22px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"300"}],"display-hero-mobile":["36px",{"lineHeight":"44px","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-primary-container border-b border-secondary-container/30 shadow-[0_12px_32px_-4px_rgba(0,22,12,0.35)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Markaz Catering Royal Gold Emblem" class="h-10 w-auto object-contain" src="logo.png"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-secondary-fixed tracking-wide uppercase leading-none">Markaz Catering</span><span class="font-label-caps text-label-caps text-secondary-fixed-dim/80 tracking-widest uppercase mt-1">Luxury Halal Catering</span></div></div><nav class="hidden lg:flex items-center gap-8" data-active-classes="text-secondary-fixed font-title-md border-b-2 border-secondary-fixed"><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="home" href="#">Home</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="about-us" href="#">About Us</a><a aria-current="page" class="transition-colors py-2 text-secondary-fixed font-title-md border-b-2 border-secondary-fixed" data-path="services" href="#">Services</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="signature-menu" href="#">Signature Menu</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="packages" href="#">Packages</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="gallery" href="#">Gallery</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs pl-2 border-l border-secondary-container/20"><img alt="Profile" class="w-9 h-9 rounded-full object-cover border border-secondary-container/40 p-0.5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiSavTlYyqBGaAELoGf0WE1cegoPMSAPB6Y-wydIXr5Aph9BZmPwgg2Se0FX5ygObsSVoJR1tTWfNsV0RGCrChL8t5TZxNw7Wt6iHn1GA42ltBHlxU4K5kBlCpsal80ND98XEtHRwRik2Rk8LXLM3dlZ8KjIyzCVfYFA3-u12xz6yywCy760ig4DjROwd0MM_r82T_dbQTInf61-cpjSDCC-lcDJgsiVqrtSxqk-sN7IY8GQ-4gKWPAA"/></div><a class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider rounded-lg border border-secondary hover:bg-secondary-fixed transition-all duration-200 shadow-sm" data-path="contact" href="#">Enquire Now</a></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Hero Section -->
+<section class="relative w-full overflow-hidden bg-primary text-on-primary py-24 lg:py-32">
+<div class="absolute inset-0 opacity-10 bg-[radial-gradient(#ffd089_1px,transparent_1px)] [background-size:24px_24px]"></div>
+<div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-tertiary-container/40 blur-3xl pointer-events-none"></div>
+<div class="relative max-w-7xl mx-auto px-6 lg:px-12 flex flex-col items-center text-center">
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-container text-secondary-fixed mb-6 shadow-sm">
+<span class="material-symbols-outlined text-sm">auto_awesome</span>
+<span class="font-label-caps text-label-caps tracking-widest uppercase">Ceremonial Culinary Artistry</span>
+</div>
+<h1 class="font-display-hero text-display-hero max-w-4xl text-surface-bright leading-tight tracking-tight mb-8">
+        Bespoke Catering Tailored to Every Sacred Milestone
+      </h1>
+<p class="font-body-lg text-body-lg text-surface-container-high max-w-2xl leading-relaxed font-light mb-10">
+        From revered familial gatherings of thirty to regal walimas welcoming over two thousand patrons, Markaz curates refined hospitality anchored in 100% certified Halal distinction, ancestral spice lineage, and effortless presentation.
+      </p>
+<div class="flex flex-wrap items-center justify-center gap-4">
+<a class="inline-flex items-center gap-2 px-8 py-3.5 bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider rounded-lg shadow-md hover:bg-secondary-fixed transition-all duration-200" href="#services-grid">
+          Explore Service Tiers
+          <span class="material-symbols-outlined text-sm">arrow_downward</span>
+</a>
+<a class="inline-flex items-center gap-2 px-8 py-3.5 bg-primary-container text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider rounded-lg shadow-sm hover:bg-primary-container/80 transition-all duration-200" data-path="contact" href="#">
+          Reserve Consultation
+          <span class="material-symbols-outlined text-sm">calendar_month</span>
+</a>
+</div>
+<!-- Quick Metrics Strip -->
+<div class="mt-16 w-full max-w-4xl grid grid-cols-2 sm:grid-cols-4 gap-4 p-4 rounded-xl bg-primary-container/70 shadow-xl backdrop-blur-md">
+<div class="flex flex-col items-center p-3">
+<span class="font-headline-md text-headline-md text-secondary-fixed">2,000+</span>
+<span class="font-label-caps text-label-caps text-surface-container-high uppercase tracking-widest mt-1">Guest Capacity</span>
+</div>
+<div class="flex flex-col items-center p-3">
+<span class="font-headline-md text-headline-md text-secondary-fixed">100%</span>
+<span class="font-label-caps text-label-caps text-surface-container-high uppercase tracking-widest mt-1">HMC Certified Halal</span>
+</div>
+<div class="flex flex-col items-center p-3">
+<span class="font-headline-md text-headline-md text-secondary-fixed">18+</span>
+<span class="font-label-caps text-label-caps text-surface-container-high uppercase tracking-widest mt-1">Master Khansamas</span>
+</div>
+<div class="flex flex-col items-center p-3">
+<span class="font-headline-md text-headline-md text-secondary-fixed">14 Yrs</span>
+<span class="font-label-caps text-label-caps text-surface-container-high uppercase tracking-widest mt-1">Bespoke Heritage</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Capacity & Estimate Filter -->
+<section class="w-full bg-surface-container-low py-8 shadow-sm">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined">room_service</span>
+</div>
+<div>
+<span class="font-title-md text-title-md text-on-surface">Curated Scale &amp; Ambience</span>
+<p class="font-body-md text-body-md text-on-surface-variant">Filter our signature experiences based on your anticipated milestone</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2" id="filter-buttons">
+<button class="service-filter-btn px-4 py-2 rounded-lg bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200 shadow-sm" data-filter="all" onclick="filterServices('all')">All Experiences</button>
+<button class="service-filter-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200" data-filter="weddings" onclick="filterServices('weddings')">Weddings</button>
+<button class="service-filter-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200" data-filter="corporate" onclick="filterServices('corporate')">Corporate &amp; Iftars</button>
+<button class="service-filter-btn px-4 py-2 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200" data-filter="intimate" onclick="filterServices('intimate')">Family Dawats</button>
+</div>
+</div>
+</section>
+<!-- 6 Detailed Service Cards -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-28" id="services-grid">
+<div class="flex flex-col items-center text-center mb-16">
+<span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase mb-3">Our Sovereign Offerings</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface max-w-2xl">
+        Refined Hospitality For Honored Assemblies
+      </h2>
+<div class="mt-4 w-16 h-1 rounded-full bg-secondary-container"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+<!-- Card 1: Grand Weddings & Walima -->
+<article class="service-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-category="weddings">
+<div class="relative h-72 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Lavish South Asian wedding reception banquet table set with polished silver and brass handis, aromatic biryani steam, flickering warm tea lights, opulent green and gold embroidered silk runners, and ambient royal ballroom floral arches." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOcoDVpt0W6nwqrP1e02yA2vFk9raRJdexBkBnrvOG7QX-0lbT4oEtre33XOaHsFTet0SZOSA5q8vivU21nsXnWb7ZhkAvXtOZsXDDdQp4TxSAGPBasWBSftg3e6Ln4s2qq7ZQcFgo2TiisLONsml0CZbv-Q6JRscjqhib4B9qhaRJPfkVxcEaApmQHHmPP0V4sjZ9iT-8dTrSIMcQ5cpQlSqjJOAT6hyX4Do-vXbzb0zM4LDY0Awlyw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/90 text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider backdrop-blur-sm">
+<span class="material-symbols-outlined text-xs">celebration</span>
+<span>Up to 2,500 Guests</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">
+<div>
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Sovereign Tier</span>
+<h3 class="font-headline-md text-headline-md text-on-primary">Grand Weddings &amp; Walima</h3>
+</div>
+<span class="font-headline-sm text-headline-sm text-secondary-fixed">01</span>
+</div>
+</div>
+<div class="p-8 flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6 font-light">
+              Our signature grand matrimonial service orchestrates noble court dining rituals. We honor traditional hospitality with silver and brass handi service, specialized VIP dining attendants for the newlyweds and elders, and majestic multi-tiered dessert spreads.
+            </p>
+<div class="space-y-3 mb-8">
+<span class="font-title-md text-title-md text-on-surface block">Signature Inclusions:</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-on-surface-variant font-body-md text-body-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Dedicated Bride &amp; Groom VIP Butler</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Pure Silver &amp; Hammered Brass Handis</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Artisanal Zafrani Dessert Salons</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Uniformed White-Glove Stewards</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-6 bg-surface-container-low -mx-8 -mb-8 p-6 flex items-center justify-between mt-auto">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Formal Plated &amp; Royal Dastarkhwan</span>
+</div>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider hover:bg-primary-container transition-colors shadow-sm" data-path="contact" href="#">
+              Inquire Walima
+              <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 2: Corporate Events & Grand Iftars -->
+<article class="service-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-category="corporate">
+<div class="relative h-72 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Elegant communal Iftar arrangement during twilight with Medjool dates on crystal footed plates, ruby red Rooh Afza sherbet in faceted glass decanters, golden brass lanterns glowing gently, and sleek contemporary corporate table dressings." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWU359ZJvaBg4XO2jH7FcAZ-FAVmlTUjvdMSaDJLVew186XbmnJACjenirvIuxt84WEmgeF8lPUtVVc7ZZNiIDRcoyTS9DFeF5m3yhzF6ftSC2RyxUniPPeCZfETYVLusSh9nLmOUVNKljN2IghLT7fccj-xuWnsaIC7UU2x8s61NbaKxbpTyDsw2X7eFHfaB5k4aof3XHD7ZODojvvmZQuCjub44WU4nKMAWAg3v1YGHn3CYppq5svg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/90 text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider backdrop-blur-sm">
+<span class="material-symbols-outlined text-xs">business_center</span>
+<span>100 – 1,800 Guests</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">
+<div>
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Executive Hospitality</span>
+<h3 class="font-headline-md text-headline-md text-on-primary">Corporate Events &amp; Grand Iftars</h3>
+</div>
+<span class="font-headline-sm text-headline-sm text-secondary-fixed">02</span>
+</div>
+</div>
+<div class="p-8 flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6 font-light">
+              Engineered with millisecond punctuality for Maghrib prayer callings and high-level multinational executive gatherings. Featuring fast-paced Ramadan table transformations, curated dawat gift boxes, and bespoke corporate luncheon layouts.
+            </p>
+<div class="space-y-3 mb-8">
+<span class="font-title-md text-title-md text-on-surface block">Signature Inclusions:</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-on-surface-variant font-body-md text-body-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Synchronized Sunset Iftar Unveiling</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Medjool Dates &amp; Shahi Sherbet Bars</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Gourmet Individual Bento Dawat Boxes</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Corporate Billing &amp; VIP Seating Protocol</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-6 bg-surface-container-low -mx-8 -mb-8 p-6 flex items-center justify-between mt-auto">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Fast-Paced Precision Service</span>
+</div>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider hover:bg-primary-container transition-colors shadow-sm" data-path="contact" href="#">
+              Inquire Corporate
+              <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 3: Milad-un-Nabi & Aqeeqah Gatherings -->
+<article class="service-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-category="intimate">
+<div class="relative h-72 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Traditional ceremonial blessed feast preparation, showcasing steaming bowls of fragrant saffron sheer khurma topped with silver vark and pistachios, ornate Tabarruk gift boxes with gold geometric embossing, and sacred amber warmth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn1-5lazO8xqVpO1OYpvinBQif7jIoKdjCGORIcK2eoGPA7brcy8fhmf-saXIEh5NMlVpiF0WhbEIly5m9inWM-8M6WovFxuCKhKlG983SmBlY3GOHV0DHt1Y_t1dPURUcdt-bJi0aCAXlivs_sHp8a_ub5d5-vZ16sIDYyFQaRLFwp5hcUhyejZCrUlSNuHZ_WlToCiVhuB-9e7qHi09UQ1XjUHw4lK2QIcywfTg8qjJyJemsEVeLvA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/90 text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider backdrop-blur-sm">
+<span class="material-symbols-outlined text-xs">spa</span>
+<span>50 – 500 Guests</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">
+<div>
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Sacred Heritage</span>
+<h3 class="font-headline-md text-headline-md text-on-primary">Milad-un-Nabi &amp; Aqeeqah</h3>
+</div>
+<span class="font-headline-sm text-headline-sm text-secondary-fixed">03</span>
+</div>
+</div>
+<div class="p-8 flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6 font-light">
+              Infused with spiritual sanctity and reverent care. We deliver full ceremonial handling for aqeeqah meat preparations in strict adherence to Islamic rites, alongside exquisite blessed Tabarruk parcel management and sweet saffron pulao.
+            </p>
+<div class="space-y-3 mb-8">
+<span class="font-title-md text-title-md text-on-surface block">Signature Inclusions:</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-on-surface-variant font-body-md text-body-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Strict Shariah-Compliant Aqeeqah Butchery</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Premium Gold-Embossed Tabarruk Boxes</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Authentic Saffron Sheer Khurma Bowls</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Floor Seating Dastarkhwan Linen Setup</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-6 bg-surface-container-low -mx-8 -mb-8 p-6 flex items-center justify-between mt-auto">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Reverent Ceremonial Care</span>
+</div>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider hover:bg-primary-container transition-colors shadow-sm" data-path="contact" href="#">
+              Inquire Milad
+              <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 4: Private Lawn & Garden Soirées -->
+<article class="service-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-category="intimate">
+<div class="relative h-72 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Chic twilight garden gathering under an ivory marquee with suspended fairy lights, long wooden farmhouse tables with delicate emerald ceramic tableware, surrounded by manicured topiary and private dawat hospitality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHSCblJv7MiBlotb-Ti8_djm6E4Hm7bF5ZDLnS7YGf_n0B3Jhke38wxooBijTygO8uJ7EcUNlPv1nBAIq3AblMjRlhA5OcNOphM42Xcd7boRyFj8yN2a8WZJ86mYHan7w8xEjU9jQrwPLuNoBfTXlAmYDDIMoLKZulnrj61T9yM-vLFsPriQ4cnU3UqjbJsWRQjw4XR0orjswn1eMdYpwk-8M-ZVVJ4vu6JVHsvHCUOu5RSx8MCVjtzg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/90 text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider backdrop-blur-sm">
+<span class="material-symbols-outlined text-xs">yard</span>
+<span>30 – 120 Guests</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">
+<div>
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Intimate Grandeur</span>
+<h3 class="font-headline-md text-headline-md text-on-primary">Private Lawn &amp; Garden Soirées</h3>
+</div>
+<span class="font-headline-sm text-headline-sm text-secondary-fixed">04</span>
+</div>
+</div>
+<div class="p-8 flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6 font-light">
+              Crafted specifically for discerning hosts seeking the ambiance of an intimate palace salon within their own private residence or estate. Seamless setup, bespoke canopy styling, and dedicated private chef services.
+            </p>
+<div class="space-y-3 mb-8">
+<span class="font-title-md text-title-md text-on-surface block">Signature Inclusions:</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-on-surface-variant font-body-md text-body-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Bespoke Marquee &amp; Candlelit Pergolas</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Private Sommelier-Style Beverage Station</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>On-Site Personal Sous Chef Team</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Immaculate Lawn Protection &amp; Restoration</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-6 bg-surface-container-low -mx-8 -mb-8 p-6 flex items-center justify-between mt-auto">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Private Estate Execution</span>
+</div>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider hover:bg-primary-container transition-colors shadow-sm" data-path="contact" href="#">
+              Inquire Soirée
+              <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 5: Live Cooking & Tawa Counters -->
+<article class="service-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-category="weddings">
+<div class="relative h-72 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Dynamic open culinary theatrical station featuring a South Asian chef tossing paper-thin Roomali Roti over an inverted kadhai, glowing charcoal grill with sizzling spiced seekh kebabs, and smoke dancing under warm spotlighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdfz7Fhz4rXeIySC6N3U40OxGeeBYhWyl78rrMPvRhw_ExQJ7wFtQpcVd-HaJLOCpdMMWmn3cCXOUyGlOnMDWZoCFat47M2e6WklkWZ0jt0FpHhpKUEHKtvkzOGtXG5lFjIPzWcQhumcht5VbiZbvPKfmXgqsddi4JSY5xKrsF1zhb70-piXT4lTQIEbMBWq4OkSHgO5vj2rqdFd33QFt88pcEPapAl3BSHJsTiRNhgjDbdbAFckz9kA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/90 text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider backdrop-blur-sm">
+<span class="material-symbols-outlined text-xs">local_fire_department</span>
+<span>Interactive Theater</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">
+<div>
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Theatrical Gastronomy</span>
+<h3 class="font-headline-md text-headline-md text-on-primary">Live Cooking &amp; Tawa Counters</h3>
+</div>
+<span class="font-headline-sm text-headline-sm text-secondary-fixed">05</span>
+</div>
+</div>
+<div class="p-8 flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6 font-light">
+              Transform your feast into mesmerizing dining performance. Master khansamas operate live charcoal sigris, roomali roti tossing acrobats, coastal masala fish tawas, and bespoke Chandni Chowk street-chaat kiosks on demand.
+            </p>
+<div class="space-y-3 mb-8">
+<span class="font-title-md text-title-md text-on-surface block">Signature Inclusions:</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-on-surface-variant font-body-md text-body-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Charcoal Tandoori Naan &amp; Kulcha Ovens</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Live Tossed Roomali Roti Performers</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Fresh Cast-Iron Coastal Fish Skillets</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Live Gol Gappe &amp; Papdi Chaat Carts</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-6 bg-surface-container-low -mx-8 -mb-8 p-6 flex items-center justify-between mt-auto">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Sizzling Scent &amp; Action</span>
+</div>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider hover:bg-primary-container transition-colors shadow-sm" data-path="contact" href="#">
+              Inquire Live Stations
+              <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 6: Royal Buffet & Silver-Plated Dining -->
+<article class="service-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300" data-category="weddings">
+<div class="relative h-72 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Regal catering buffet spread featuring hand-hammered copper chafing dishes, emerald satin cloth runner, ornate gold name cards, aromatic basmati rice with rose petals, and refined architectural service layout." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD65dabZGtXJa-FEqygSifthhA10X-VPj2yQIVhekcmlE1C0LFtLllXE6JUKGkp_adxlY9ZBYZw4_90Ra35nk9CfU6fGORevAmvekPlyjf_A-FWWN9BpUm1DuG19GCeEx_iEVKM6R8bKHWF27ZgkFqZv7amBCpPrlKGEXobiIv6lp2Q7h6KhNZ7sL4tEYcEwo6QJSjKUmorpMqu0BCTVilh7afwew7Izqa4htbZ57StIUhqwU5NYiK99w"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/90 text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider backdrop-blur-sm">
+<span class="material-symbols-outlined text-xs">dinner_dining</span>
+<span>200 – 3,000 Guests</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">
+<div>
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Palatial Display</span>
+<h3 class="font-headline-md text-headline-md text-on-primary">Royal Buffet &amp; Silver Dining</h3>
+</div>
+<span class="font-headline-sm text-headline-sm text-secondary-fixed">06</span>
+</div>
+</div>
+<div class="p-8 flex flex-col flex-1 justify-between bg-surface-container-lowest">
+<div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6 font-light">
+              Designed for massive gala banquets where culinary perfection must meet lightning-fast operational flow. Dual-sided heated buffet lines framed in hammered copper, illuminated chafing pedestals, and seamless replenishments.
+            </p>
+<div class="space-y-3 mb-8">
+<span class="font-title-md text-title-md text-on-surface block">Signature Inclusions:</span>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-on-surface-variant font-body-md text-body-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Hammered Copper Chafing &amp; Warmer Vessels</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Mirrored Symmetrical Dual-Buffet Flow</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Constant Culinary Quality Replenishment</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>Custom Gold Foil Dish Identifiers</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-6 bg-surface-container-low -mx-8 -mb-8 p-6 flex items-center justify-between mt-auto">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Zero-Wait Banquet Flow</span>
+</div>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-primary text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider hover:bg-primary-container transition-colors shadow-sm" data-path="contact" href="#">
+              Inquire Royal Buffet
+              <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Comprehensive Standards: "Every Service Includes" -->
+<section class="w-full bg-primary-container text-on-primary py-20 lg:py-24 relative overflow-hidden">
+<div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-secondary-container/10 via-transparent to-transparent pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-widest mb-3 inline-block">The Markaz Assurance</span>
+<h2 class="font-headline-lg text-headline-lg text-surface-bright">Every Service Includes Our Sacred Baseline</h2>
+<p class="font-body-md text-body-md text-surface-container-high mt-4 font-light">
+          Regardless of your event's scope, these six non-negotiable standards are seamlessly integrated into every contracted celebration without unexpected surcharges.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Baseline Item 1 -->
+<div class="p-6 rounded-xl bg-primary/70 shadow-lg flex items-start gap-4">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">supervisor_account</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-secondary-fixed mb-1">Dedicated Banquet Manager</h4>
+<p class="font-body-md text-body-md text-surface-container-high font-light">One senior hospitality captain exclusively assigned to direct floor operations and timeline flow.</p>
+</div>
+</div>
+<!-- Baseline Item 2 -->
+<div class="p-6 rounded-xl bg-primary/70 shadow-lg flex items-start gap-4">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">restaurant_menu</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-secondary-fixed mb-1">Pre-Event Tasting Session</h4>
+<p class="font-body-md text-body-md text-surface-container-high font-light">A private tasting for up to six family delegates at our Chennai tasting salon to calibrate spice and balance.</p>
+</div>
+</div>
+<!-- Baseline Item 3 -->
+<div class="p-6 rounded-xl bg-primary/70 shadow-lg flex items-start gap-4">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">menu_book</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-secondary-fixed mb-1">Custom Calligraphic Menus</h4>
+<p class="font-body-md text-body-md text-surface-container-high font-light">Artisan printed menu stands in Bodoni typography and metallic foil denoting every course and allergen detail.</p>
+</div>
+</div>
+<!-- Baseline Item 4 -->
+<div class="p-6 rounded-xl bg-primary/70 shadow-lg flex items-start gap-4">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">skillet</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-secondary-fixed mb-1">Live Chef Tawa Stations</h4>
+<p class="font-body-md text-body-md text-surface-container-high font-light">Every package encompasses live hot bread preparation ensuring naans and rotis arrive crisp from flame.</p>
+</div>
+</div>
+<!-- Baseline Item 5 -->
+<div class="p-6 rounded-xl bg-primary/70 shadow-lg flex items-start gap-4">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">verified</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-secondary-fixed mb-1">Halal Verification Dossier</h4>
+<p class="font-body-md text-body-md text-surface-container-high font-light">Formal batch certificates of hand-slaughtered meat provenance provided to the host prior to the event.</p>
+</div>
+</div>
+<!-- Baseline Item 6 -->
+<div class="p-6 rounded-xl bg-primary/70 shadow-lg flex items-start gap-4">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">cleaning_services</span>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-secondary-fixed mb-1">Spotless Site Sanitization</h4>
+<p class="font-body-md text-body-md text-surface-container-high font-light">Full post-reception kitchen cleanup and eco-friendly surplus management according to your directives.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive 4-Step Booking Process Section -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-28">
+<div class="flex flex-col items-center text-center mb-16">
+<span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase mb-3">Seamless Realization</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">The Markaz Concierge Journey</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-3 font-light">
+        A tranquil, four-stage booking experience designed to grant peace of mind to the host family.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+<!-- Step 1 -->
+<div class="flex flex-col p-6 rounded-xl bg-surface-container-low shadow-sm relative">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed font-title-lg text-title-lg flex items-center justify-center mb-6">1</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-2">Milestone Dialogue</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+          Share your guest numbers, ceremonial customs, regional taste preferences, and venue considerations.
+        </p>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col p-6 rounded-xl bg-surface-container-low shadow-sm relative">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed font-title-lg text-title-lg flex items-center justify-center mb-6">2</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-2">Curated Dastarkhwan</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+          Our Executive Khansama tailors a bespoke course lineup with live station concepts and custom dish harmonies.
+        </p>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col p-6 rounded-xl bg-surface-container-low shadow-sm relative">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed font-title-lg text-title-lg flex items-center justify-center mb-6">3</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-2">Private Family Tasting</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+          Sample the planned menu at our private tasting suite to adjust spice notes, sweet pairings, and display finishes.
+        </p>
+</div>
+<!-- Step 4 -->
+<div class="flex flex-col p-6 rounded-xl bg-surface-container-low shadow-sm relative">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed font-title-lg text-title-lg flex items-center justify-center mb-6">4</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-2">Immaculate Execution</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+          On event day, our senior banquet directors oversee logistics, staff attire, and seamless hospitality from start to close.
+        </p>
+</div>
+</div>
+</section>
+<!-- High-Impact Call to Action Banner -->
+<section class="max-w-7xl mx-auto px-6 lg:px-12 pb-24">
+<div class="rounded-2xl bg-gradient-to-r from-primary via-primary-container to-primary text-on-primary p-10 lg:p-16 relative overflow-hidden shadow-2xl">
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-secondary-container/10 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-10">
+<div class="max-w-2xl text-center lg:text-left">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-lowest/10 text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider mb-4">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span>2025 – 2026 Inquiries Open</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-surface-bright leading-tight">
+            Reserve Your Auspicious Date With Markaz
+          </h2>
+<p class="font-body-lg text-body-lg text-surface-container-high mt-4 font-light">
+            Due to our commitment to uncompromising culinary focus, we accept a limited number of grand banquets per weekend. Connect with our concierge to check calendar availability.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-4 shrink-0">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps uppercase tracking-widest rounded-lg shadow-lg hover:bg-secondary-fixed transition-all duration-200" data-path="contact" href="#">
+            Book Catering Consultation
+            <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 bg-transparent text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider rounded-lg border border-secondary-container/30 hover:bg-primary-container/60 transition-colors" data-path="packages" href="#">
+            View Tiers &amp; Pricing
+          </a>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  function filterServices(category) {
+    const cards = document.querySelectorAll('.service-card');
+    const buttons = document.querySelectorAll('.service-filter-btn');
+
+    // Update active button styling
+    buttons.forEach(btn => {
+      if (btn.getAttribute('data-filter') === category) {
+        btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+      } else {
+        btn.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+        btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+      }
+    });
+
+    // Toggle card visibility
+    cards.forEach(card => {
+      const cardCat = card.getAttribute('data-category');
+      if (category === 'all' || cardCat === category) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+</script></main><footer class="w-full bg-primary text-on-primary border-t border-secondary-container/30"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12"><div class="flex items-center justify-center gap-4 mb-12"><div class="h-px w-24 bg-gradient-to-r from-transparent to-secondary-container/50"></div><div class="w-2 h-2 rotate-45 border border-secondary-fixed bg-primary-container"></div><div class="h-px w-24 bg-gradient-to-l from-transparent to-secondary-container/50"></div></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"><div class="space-y-4"><div class="flex items-center gap-3"><img alt="Markaz Catering Royal Gold Emblem" class="h-8 w-auto object-contain" src="logo.png"/><span class="font-headline-sm text-headline-sm text-secondary-fixed tracking-wide uppercase">Markaz</span></div><p class="font-body-md text-body-md text-on-primary/80 leading-relaxed">Markaz Catering — 100% Halal Certified Grand Banquets &amp; Intimate Gatherings. Dedicated to noble South Asian ceremonial hospitality, exquisite spice heritage, and immaculate culinary grace.</p><div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-secondary-container/40 bg-primary-container/60"><span class="material-symbols-outlined text-secondary-fixed text-sm">verified</span><span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-wider">100% HMC Certified Halal</span></div></div><div class="space-y-3"><h4 class="font-title-lg text-title-lg text-secondary-fixed tracking-wide border-b border-secondary-container/20 pb-2">Navigation</h4><ul class="space-y-2 font-body-md text-body-md text-on-primary/70"><li class="hover:text-secondary-fixed transition-colors"><a data-path="home" href="#">Explore Markaz</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="about-us" href="#">Heritage &amp; Lineage</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="services" href="#">Catering Experiences</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="signature-menu" href="#">Royal Dastarkhwan</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="gallery" href="#">Grand Portfolios</a></li></ul></div><div class="space-y-3"><h4 class="font-title-lg text-title-lg text-secondary-fixed tracking-wide border-b border-secondary-container/20 pb-2">Ceremonial Tiers</h4><ul class="space-y-2 font-body-md text-body-md text-on-primary/70"><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Royal Walima Banquets</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Nikah &amp; Shadi Receptions</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Corporate Iftars &amp; Galas</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Intimate Dawat &amp; Milad</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="contact" href="#">Bespoke Tasting Suite</a></li></ul></div><div class="space-y-3"><h4 class="font-title-lg text-title-lg text-secondary-fixed tracking-wide border-b border-secondary-container/20 pb-2">Concierge &amp; Inquiries</h4><div class="space-y-3 font-body-md text-body-md text-on-primary/80"><p class="flex items-start gap-2.5"><span class="material-symbols-outlined text-secondary-fixed text-base mt-0.5">location_on</span><span>Thousand Lights, Mount Road, Chennai, Tamil Nadu 600006</span></p><p class="flex items-center gap-2.5"><span class="material-symbols-outlined text-secondary-fixed text-base">call</span><span>+91 90000 00000</span></p><p class="flex items-center gap-2.5"><span class="material-symbols-outlined text-secondary-fixed text-base">mail</span><span>info@markazcatering.com</span></p><div class="pt-2"><p class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-wider">Tasting Sessions By Appointment Only</p></div></div></div></div><div class="mt-12 pt-8 border-t border-secondary-container/20 flex flex-col md:flex-row items-center justify-between gap-4"><p class="font-label-lg text-label-lg text-on-primary/60 text-center md:text-left">© 2025 Markaz Halal Catering Hospitality Group. All rights reserved.</p><div class="flex items-center gap-6 font-label-caps text-label-caps text-on-primary/60 uppercase tracking-widest"><span class="hover:text-secondary-fixed transition-colors cursor-pointer">Privacy Policy</span><span class="hover:text-secondary-fixed transition-colors cursor-pointer">Terms of Service</span><span class="hover:text-secondary-fixed transition-colors cursor-pointer">Halal Standard Verification</span></div></div></div></footer></body></html>

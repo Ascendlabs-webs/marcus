@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed-dim":"#a2d1b4","on-surface-variant":"#414844","surface-variant":"#e7e2d8","on-secondary":"#ffffff","surface-container-lowest":"#ffffff","primary-fixed":"#c6ebd5","error-container":"#ffdad6","inverse-primary":"#abcfba","outline":"#727973","surface-bright":"#fef9ef","on-secondary-fixed":"#281800","on-primary-fixed-variant":"#2d4d3d","error":"#ba1a1a","surface-container-high":"#ece8de","secondary-fixed-dim":"#edbf7a","surface-container-highest":"#e7e2d8","on-tertiary":"#ffffff","secondary":"#7b581d","secondary-fixed":"#ffddaf","secondary-container":"#ffd089","on-background":"#1d1c16","tertiary-fixed":"#bdeecf","outline-variant":"#c1c8c2","tertiary-container":"#002d1b","surface-tint":"#446554","on-primary-container":"#739582","surface-dim":"#dedad0","on-error-container":"#93000a","surface":"#fef9ef","on-tertiary-container":"#6a977d","on-surface":"#1d1c16","primary-fixed-dim":"#abcfba","primary":"#00160c","primary-container":"#0a2c1e","surface-container":"#f2ede3","on-primary-fixed":"#002114","inverse-surface":"#32302a","on-secondary-fixed-variant":"#604105","on-secondary-container":"#79571c","on-tertiary-fixed-variant":"#234f39","background":"#fef9ef","inverse-on-surface":"#f5f0e6","on-primary":"#ffffff","on-tertiary-fixed":"#002112","tertiary":"#00160b","surface-container-low":"#f8f3e9","on-error":"#ffffff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"gutter":"1.5rem","margin":"3rem","gutter-mobile":"1rem","space-sm":"0.5rem","margin-mobile":"1.25rem","space-xl":"2.5rem","space-xs":"0.25rem","space-md":"1rem","space-lg":"1.5rem"},"fontFamily":{"headline-md":["Bodoni Moda"],"label-lg":["Montserrat"],"title-lg":["Montserrat"],"headline-lg":["Bodoni Moda"],"headline-lg-mobile":["Bodoni Moda"],"display-hero":["Bodoni Moda"],"label-caps":["Montserrat"],"body-lg":["Montserrat"],"title-md":["Montserrat"],"body-md":["Montserrat"],"display-hero-mobile":["Bodoni Moda"],"headline-sm":["Bodoni Moda"]},"fontSize":{"headline-md":["28px",{"lineHeight":"36px","fontWeight":"500"}],"label-lg":["12px",{"lineHeight":"16px","fontWeight":"500"}],"title-lg":["18px",{"lineHeight":"26px","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"68px","fontWeight":"400"}],"label-caps":["11px",{"lineHeight":"16px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"300"}],"title-md":["15px",{"lineHeight":"22px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"300"}],"display-hero-mobile":["36px",{"lineHeight":"44px","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-primary-container border-b border-secondary-container/30 shadow-[0_12px_32px_-4px_rgba(0,22,12,0.35)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Markaz Catering Royal Gold Emblem" class="h-10 w-auto object-contain" src="logo.png"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-secondary-fixed tracking-wide uppercase leading-none">Markaz Catering</span><span class="font-label-caps text-label-caps text-secondary-fixed-dim/80 tracking-widest uppercase mt-1">Luxury Halal Catering</span></div></div><nav class="hidden lg:flex items-center gap-8" data-active-classes="text-secondary-fixed font-title-md border-b-2 border-secondary-fixed"><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="home" href="#">Home</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="about-us" href="#">About Us</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="services" href="#">Services</a><a aria-current="page" class="transition-colors py-2 text-secondary-fixed font-title-md border-b-2 border-secondary-fixed" data-path="signature-menu" href="#">Signature Menu</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="packages" href="#">Packages</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="gallery" href="#">Gallery</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs pl-2 border-l border-secondary-container/20"><img alt="Profile" class="w-9 h-9 rounded-full object-cover border border-secondary-container/40 p-0.5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiSavTlYyqBGaAELoGf0WE1cegoPMSAPB6Y-wydIXr5Aph9BZmPwgg2Se0FX5ygObsSVoJR1tTWfNsV0RGCrChL8t5TZxNw7Wt6iHn1GA42ltBHlxU4K5kBlCpsal80ND98XEtHRwRik2Rk8LXLM3dlZ8KjIyzCVfYFA3-u12xz6yywCy760ig4DjROwd0MM_r82T_dbQTInf61-cpjSDCC-lcDJgsiVqrtSxqk-sN7IY8GQ-4gKWPAA"/></div><a class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider rounded-lg border border-secondary hover:bg-secondary-fixed transition-all duration-200 shadow-sm" data-path="contact" href="#">Enquire Now</a></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle Architectural Header Scrim Section -->
+<section class="relative w-full bg-surface-container overflow-hidden pt-12 pb-16 px-6 lg:px-12">
+<div class="max-w-7xl mx-auto flex flex-col items-center text-center relative z-10">
+<!-- Regal Overline Badge -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-high text-secondary shadow-sm mb-6">
+<span class="material-symbols-outlined text-sm text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-caps text-label-caps uppercase tracking-widest">Heritage Halal Culinary Lineage</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-headline-lg text-headline-lg lg:text-display-hero font-normal text-primary tracking-tight max-w-4xl leading-tight">
+        The Signature Royal Dawat Menu
+      </h1>
+<!-- Architectural Gold Flourish / Divider -->
+<div class="flex items-center justify-center gap-4 my-6">
+<div class="h-0.5 w-16 bg-gradient-to-r from-transparent to-secondary-container"></div>
+<div class="w-2.5 h-2.5 rotate-45 bg-secondary-container shadow-sm"></div>
+<div class="h-0.5 w-16 bg-gradient-to-l from-transparent to-secondary-container"></div>
+</div>
+<!-- Subhead -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl font-light">
+        Slow-cooked recipes prepared using heritage brass cookware, purest saffron, and fresh ground whole spices. Honoring centuries of sovereign banquet etiquette.
+      </p>
+<!-- Key Quick Stats Banner -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 w-full max-w-4xl">
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm text-center">
+<span class="font-headline-sm text-headline-sm text-secondary block">100%</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">HMC Certified Halal</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm text-center">
+<span class="font-headline-sm text-headline-sm text-secondary block">18+ Hrs</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Slow Dum &amp; Handi</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm text-center">
+<span class="font-headline-sm text-headline-sm text-secondary block">Pure Kesar</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Kashmiri Mongra Grade</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm text-center">
+<span class="font-headline-sm text-headline-sm text-secondary block">Segregated</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Vegetarian Karkhana</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Filter Tabs -->
+<section class="w-full bg-surface-bright py-6 px-6 lg:px-12 sticky top-20 z-40 shadow-sm backdrop-blur-md bg-surface-bright/95">
+<div class="max-w-7xl mx-auto flex items-center justify-start lg:justify-center overflow-x-auto no-scrollbar gap-2 py-1" id="menu-filter-container">
+<button class="filter-btn active-tab px-5 py-2.5 rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200 bg-primary-container text-on-primary shadow-sm flex-shrink-0" data-category="all" onclick="filterDishes('all')">
+        All Dishes
+      </button>
+<button class="filter-btn px-5 py-2.5 rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200 bg-surface-container text-on-surface-variant hover:text-primary hover:bg-surface-container-high flex-shrink-0" data-category="biryani" onclick="filterDishes('biryani')">
+        Dum Biryani &amp; Pulao
+      </button>
+<button class="filter-btn px-5 py-2.5 rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200 bg-surface-container text-on-surface-variant hover:text-primary hover:bg-surface-container-high flex-shrink-0" data-category="kebabs" onclick="filterDishes('kebabs')">
+        Kebabs &amp; Live Grill
+      </button>
+<button class="filter-btn px-5 py-2.5 rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200 bg-surface-container text-on-surface-variant hover:text-primary hover:bg-surface-container-high flex-shrink-0" data-category="curries" onclick="filterDishes('curries')">
+        Shahi Curries &amp; Handi
+      </button>
+<button class="filter-btn px-5 py-2.5 rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200 bg-surface-container text-on-surface-variant hover:text-primary hover:bg-surface-container-high flex-shrink-0" data-category="veg" onclick="filterDishes('veg')">
+        Vegetarian Royalties
+      </button>
+<button class="filter-btn px-5 py-2.5 rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200 bg-surface-container text-on-surface-variant hover:text-primary hover:bg-surface-container-high flex-shrink-0" data-category="desserts" onclick="filterDishes('desserts')">
+        Royal Desserts
+      </button>
+<button class="filter-btn px-5 py-2.5 rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200 bg-surface-container text-on-surface-variant hover:text-primary hover:bg-surface-container-high flex-shrink-0" data-category="beverages" onclick="filterDishes('beverages')">
+        Sherbets &amp; Karak Chai
+      </button>
+</div>
+</section>
+<!-- Curated Gastronomy Grid -->
+<section class="w-full bg-surface py-16 px-6 lg:px-12">
+<div class="max-w-7xl mx-auto">
+<!-- Section Title & Meta -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-2">The Royal Degchi Curation</span>
+<h2 class="font-headline-md text-headline-md text-primary font-normal">Featured Grand Banquet Courses</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Every plate represents master khansamas working with calibrated open wood flames, pure cow ghee, and heritage spice masalas pounded fresh daily.
+        </p>
+</div>
+<!-- Bento / Asymmetric Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="dishes-grid">
+<!-- Dish 1: Zafrani Gosht Dum Biryani (Hero Large Card) -->
+<article class="dish-card lg:col-span-2 group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col lg:flex-row" data-category="biryani">
+<div class="w-full lg:w-1/2 relative h-72 lg:h-auto overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 rounded-t-xl lg:rounded-tr-none lg:rounded-l-xl" data-alt="Exquisite Zafrani Gosht Dum Biryani served in a large antique brass cauldron degh, garnished with strands of deep crimson Kashmiri saffron, fried golden onions, fresh mint leaves, accompanied by ornate side bowls of rich mirchi ka salan and burani garlic raita, soft warm natural morning banquet lighting, deep emerald and golden decor background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFMEyPlziPNBoUTQQOnS95YXkfxpWRB_318mGhIyfC_0bvQ6uardu2BzHyCaQYuyiodbE-zBORhp1X-7iTtQja-vvgMEvdot4jjVHZf-j37Wb1Hl8MQgXGl-n4wacgqZXzEAhGTUZ1qsbAxtQ39i7YTQO7_S40mc90kKN7vgdgFcHw71FLgpSnDXzBKC1Ycxtcbr808yGNZLkAT3mKRb3909MjcKfe1Fi1A5QB1vuW6Hu6JK6ACRuMXg"/>
+<div class="absolute top-4 left-4 bg-primary-container/90 backdrop-blur-sm text-secondary-fixed font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
+              Crown Specialty
+            </div>
+<div class="absolute bottom-4 left-4 bg-surface-bright/90 backdrop-blur-sm px-3 py-1 rounded-full text-on-surface font-label-caps text-label-caps tracking-wide">
+              Aged 2+ Years Basmati
+            </div>
+</div>
+<div class="w-full lg:w-1/2 p-8 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-secondary text-sm">workspace_premium</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Walima Essential</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">Zafrani Gosht Dum Biryani</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+                Extra-long grain aged basmati rice steam-cooked in sealed heavy copper handis over hickory wood fires. Layered with melt-in-mouth tender cuts of grass-fed halal lamb, pure Kashmiri saffron steeped milk, and crisp birista. Served alongside our slow-tempered Mirchi Ka Salan and whipped garlic Burani Raita.
+              </p>
+</div>
+<div class="pt-6 bg-surface-container-low -mx-8 -mb-8 p-8 flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Preparation Time</span>
+<span class="font-title-md text-title-md text-primary">6 Hours Wood-Fired Dum</span>
+</div>
+<button class="inline-flex items-center gap-2 px-5 py-2.5 bg-primary-container text-secondary-fixed hover:bg-tertiary-container rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-colors shadow-sm" onclick="openMenuModal('Zafrani Gosht Dum Biryani')">
+<span>View Notes</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish 2: Murgh Awadhi Dum Biryani -->
+<article class="dish-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col" data-category="biryani">
+<div class="relative h-64 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Awadhi Murgh Dum Biryani presented in a royal bone china tureen with delicate gold filigree edges, chicken pieces suffused with pale yellow saffron and kewra glaze, adorned with edible silver leaf and whole green cardamom, high contrast culinary editorial still life on dark wooden table." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWQCiSDo08UeYCc9JouOZ51NBvaz-JHw6EsPlFZ9ShTDjpAhb-BW5GhhJqkNAKg0MVUXuIZxMAXaudVGePLKyKQBGvBJtThE0R9BiDV5-yp4m-gyPCC1RHQhAwgubdalYEVnA0ocs-Uc9mt8M0Aox_bDPLW91Do5qMvbHUtMxxBcLuF5fX3_nSrnHsUxEAVBbwK07t9_uLUGdCZP-MLaU_uRJ7tUsZax8g2QH3vsvcjIg9QCD6JUqifg"/>
+<div class="absolute top-4 right-4 bg-surface-container/90 backdrop-blur-sm text-primary font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-wider">
+              Awadh Heritage
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Mughlai Classic</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Murgh Awadhi Dum Biryani</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Succulent spring chicken gently stewed with fragrant kewra water, crushed green cardamom pods, and distilled Persian rose water, sealed in earthen handis.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Mild Aromatics</span>
+<button class="text-secondary font-title-md text-title-md hover:text-primary transition-colors inline-flex items-center gap-1" onclick="openMenuModal('Murgh Awadhi Dum Biryani')">
+                Explore <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish 3: Smoked Galouti Kebab with Sheermal -->
+<article class="dish-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col" data-category="kebabs">
+<div class="relative h-64 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Melt in mouth Galouti Kebabs smoked with charred cloves and ghee, resting over petite golden saffron-infused sheermal flatbreads, styled on a dark emerald marble presentation platter with pickled shallots and fresh coriander, ambient warm candle glow." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVH22DzovTOGBrtzV3wRXLSmN7CMQ_bwC8xFyI0vIvdY7x5jUIF7OUTev9espO_dozbqJpnRzexMv0ofIyoztyuTJdurXV3Q3GrXV2hEnGPUdVs43hs9SWLpwVFQhClT-osQGSNDF9cNFW8gUXrdzG73Wp1Wb6iLGJj36SuVlT9ABGJveQyiN9ufb075y2joQIsFeJAmA_AGvPg_j6KuqF0xHGashIYFmxp4KsQmw33D1AFAfew8HefQ"/>
+<div class="absolute top-4 left-4 bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-wider font-semibold">
+              Live Sigdi Counter
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Lucknowi Nawabi</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Smoked Galouti Kebab &amp; Sheermal</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Silken hand-pounded lamb patties blended with 160 potli spices, charcoal smoked with cloves and ghee, served on crisp saffron-scented Sheermal.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Velvet Texture</span>
+<button class="text-secondary font-title-md text-title-md hover:text-primary transition-colors inline-flex items-center gap-1" onclick="openMenuModal('Smoked Galouti Kebab')">
+                Explore <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish 4: Seekh Kebab Peshawari -->
+<article class="dish-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col" data-category="kebabs">
+<div class="relative h-64 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Peshawari Seekh Kebabs freshly grilled on steel skewers over red hot mangal charcoal embers, glistening with herb butter, garnished with thinly sliced red onions and lime wedges, high-end fine dining South Asian banquet aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4Xqi9bICJx_iKwFvwVGVZsiJXUMTjbe-3OgHIzoFTsnkoSMlHRbK5-xhvx6LJ5G8aXo2D0LUcuyAKv5GHBXsccGITPs3fZcDxzSVmmEgDAAYYSWx3YJc6EEZIjfJgkbXJv6IJRZPqwbje5XSxpcGfIK_Drxy0XuBzfxq5yMIO23nywJ5K0n7ErYjAOstmfw4eT-fFWC_790CNbOwk_J9cdDgTw01RRpWsuWS87Rk2Aimdno8Cb62FuQ"/>
+<div class="absolute top-4 right-4 bg-primary-container text-on-primary font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-wider">
+              Charcoal Embers
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Frontier Grills</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Seekh Kebab Peshawari</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Prime cuts of minced goat tossed with coriander seed crush, Kashmiri degi chili, and mountain herbs, char-grilled over live embers. Accompanied by mint curd emulsion.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Smoky &amp; Robust</span>
+<button class="text-secondary font-title-md text-title-md hover:text-primary transition-colors inline-flex items-center gap-1" onclick="openMenuModal('Seekh Kebab Peshawari')">
+                Explore <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish 5: Nalli Nihari Shahi -->
+<article class="dish-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col" data-category="curries">
+<div class="relative h-64 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Slow cooked Nalli Nihari with a glistening red roghan surface, exposed lamb shank bone marrow, julienned fresh ginger, chopped cilantro, and lime wedges in a traditional hammered brass bowl, regal ceremonial food spread." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMPsfASX1Y6bIhldR2vX8kWs3kpJRYvAD_vwx-Tlqct2_rC8Csblg4j36N-PEIqFfbjI-HRMfw2NNQtR8PMsh2P8Ynz3T_F9nLW60J1oelyekl6c-IbGfzGLPVN15vJxTkAK7MZHpAgwXlBNiaH8vTIG4pS-IPWK-OAwEHr-iSNOI2ORxMuRbSsLuXBhMSVWYXGf_TkIDZbsiuzUc93ypG04saxWLYg6UylzKkhQI0ADftW5NzfGgnzw"/>
+<div class="absolute top-4 left-4 bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-wider font-semibold">
+              Overnight Simmer
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Imperial Gravy</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Nalli Nihari Shahi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Slow-simmered tender lamb shanks cooked overnight in velvety marrow jus infused with pipali and star anise. Finished with golden ghee tari and fresh ginger shreds.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Rich &amp; Comforting</span>
+<button class="text-secondary font-title-md text-title-md hover:text-primary transition-colors inline-flex items-center gap-1" onclick="openMenuModal('Nalli Nihari Shahi')">
+                Explore <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish 6: Murgh Musallam Sultani -->
+<article class="dish-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col" data-category="curries">
+<div class="relative h-64 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Majestic Murgh Musallam Sultani, a whole roast marinated chicken sitting proudly in rich golden almond cashew gravy, studded with spiced quail eggs, edible gold leaf, and pomegranate seeds on an ornate copper platter." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpppMVS4FLJxYN3Aj-lhw0cg1XcNUZvzlaTI4i-qe89Tt3awV2sRHD-xc4ExytTzZXBMp6Y7URfG_dn21_-F8oIxhtJMsGkTIzf1PHJBkAaF7jJtSsSMzZg2ag9GerAQUaMzlrvQH6aQ72E66nhe1d4w-tPDoZvPlhgcCTtaOrEdp12csYOJ9zYZ9GTTPLVvRkob2KN-nnBP9Q1AuOg6clPCoSI5eJhJ1wxPW2NHQSmYJLBuf56qcvrQ"/>
+<div class="absolute top-4 right-4 bg-surface-container/90 backdrop-blur-sm text-primary font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-wider">
+              Nawab Table Centerpiece
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Grand Centerpiece</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Murgh Musallam Sultani</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Whole country bird stuffed with fragrant spiced minced mutton and farm eggs, roasted and basted in an indulgent cashew, almond, and saffron cream reduction.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Royal Court Recipe</span>
+<button class="text-secondary font-title-md text-title-md hover:text-primary transition-colors inline-flex items-center gap-1" onclick="openMenuModal('Murgh Musallam Sultani')">
+                Explore <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish 7: Dal Bukhara & Vegetarian Royalties -->
+<article class="dish-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col" data-category="veg">
+<div class="relative h-64 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Clay pot of Dal Bukhara bubbling slowly with a generous swirl of churned white makhan butter and fresh cream, paired with skewered charred Paneer Tikka Angara on the side, warm atmospheric earthen colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADsBw5QJ64BuY3yNk8i2DRVE8RQ8FOTHDOx6z1k4e82ALNKaHg7YKcA7-Sn4lI-pHazqqecGmR8R905RUm9tR25Gww9KUOzLc9aBw6s9iABFOky0YRp1_vUC11cL0omDTNnYNysrIuZ1PvnbKMgYyKFkEsDPu90TbWxO-L1q4ENCdrLdlFoPy8r8X1TsKFHf9w5TNjPlw1MGBZsZjmBkDOgO4cTu_NtdZHQpiMZnjncnu2HiYZ-jkSVw"/>
+<div class="absolute top-4 left-4 bg-surface-container-high text-primary font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-wider">
+              Separate Pure-Veg Kitchen
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Sanctuary Vegetarian</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Dal Bukhara &amp; Paneer Angara</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Select urad lentils slow-cooked for 24 hours on cooling tandoor ashes with churned white butter. Paired with char-blistered saffron paneer cubes and Zafrani Subz Pulao.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">24-Hr Slow Simmer</span>
+<button class="text-secondary font-title-md text-title-md hover:text-primary transition-colors inline-flex items-center gap-1" onclick="openMenuModal('Dal Bukhara &amp; Paneer')">
+                Explore <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish 8: Shahi Tukda with Gold Vark -->
+<article class="dish-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col" data-category="desserts">
+<div class="relative h-64 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Opulent Shahi Tukda royal dessert, golden fried artisanal brioche soaked in dense saffron and cardamom rabri condensed milk, adorned with genuine 24-karat pure edible gold leaf vark, slivered pistachios and almonds." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuUVI86JGsR_E2Icr2OOsxv2CanIgB3A8rMlZVPIBOOLBBW5AbJscU3o7q37np6v_jebFaB6YVzkeSK1wR4pb_rBiwCi2oGdrkXAm79pl-qkqQl3vWqh0PYAarczAUdhmOeHN5kBirkK2OBb1v2E9QomYEYjZQ3k0gpL_N_80xhrGihGi8iWkXrPO1cHSX-OZ5sPMe4a481G3muYvG3UU37MYza3Ijo8htSqTZMKZPwz2LaxZZSrfawg"/>
+<div class="absolute top-4 right-4 bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-wider font-semibold">
+              24K Gold Leaf
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Dawat Sweet Finale</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Shahi Tukda with Pure Gold Vark</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Crispy ghee-fried brioche steeped in cardamom-scented rabri, crowned with roasted Irani pistachios, charoli nuts, and 24-karat pure gold leaf.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Sweet Opulence</span>
+<button class="text-secondary font-title-md text-title-md hover:text-primary transition-colors inline-flex items-center gap-1" onclick="openMenuModal('Shahi Tukda')">
+                Explore <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish 9: Kesariya Sheer Khurma -->
+<article class="dish-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col" data-category="desserts">
+<div class="relative h-64 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Silver bowl containing Kesariya Sheer Khurma with golden fine roasted vermicelli, Medjool date slivers, chironji nuts, and almond flakes swimming in rich creamy reduced saffron milk, garnished with dried rose petals." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDO5bZzYp_qXta9jFIYzyLu4NBW3w5o91XpfTP3KkQeFtkkqyPLStPWKGgrNyDAJ8q4IcBXZ7HVt0960QYZiZ20jO5JObWbfj23hx9TDVlk0P0R8GpagBv8h8qzMz5AjQOYwvX4ssqLsaryl5MgzbPXVtr8YWlA1MMS7qdcgsQ5Z2COzI8aDeFA89L9tzan-tMUKq_slF9yDGKLF6yTbk6ydSgvo1GZkdcjtghVPfvT8pLQ8nX2c6FP2A"/>
+<div class="absolute top-4 left-4 bg-primary-container text-on-primary font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-wider">
+              Ceremonial Tradition
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Milad &amp; Eid Special</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Kesariya Sheer Khurma</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Sun-roasted fine vermicelli gently simmered in buffalo milk reduction with soft Medjool dates, chironji seeds, cashews, and Kashmiri saffron droplets.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Sacred Warmth</span>
+<button class="text-secondary font-title-md text-title-md hover:text-primary transition-colors inline-flex items-center gap-1" onclick="openMenuModal('Kesariya Sheer Khurma')">
+                Explore <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish 10: Mohabbat Ka Sherbet & Zafrani Karak Chai Station -->
+<article class="dish-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col" data-category="beverages">
+<div class="relative h-64 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Traditional live drink counter featuring copper samovars of steaming Zafrani Karak Chai poured into vintage glasses next to crystal dispensers of chilled Mohabbat Ka Sherbet pink rose milk with fresh cut watermelon chunks, mint leaves, and ice." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd6oApGDO9mflI1_jvGIVjlFSbJYe2FoADlsy6Z2MpaJ6jTdYQtl36YXzm2Cy23DuWGyWPhtvpGN3-1KFnLovfAj6H3dnGMs_zctLkzPEsceuMBeeAkfP1HlLVxg9i1M66PJ-sBgqPVrun4nisV_xq4Gt3EsVFB17rwC5xN92TaLOVnEaT_Kthr9pYAYhzz0vIOyoksafz-OWhLFQaGzCli9vSr7gfQz8LBmZeAx078QThDYqH_hVoCQ"/>
+<div class="absolute top-4 right-4 bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps px-3 py-1 rounded-full uppercase tracking-wider font-semibold">
+              Live Artisanal Bar
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-1">Welcome &amp; Farewell</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Mohabbat Sherbet &amp; Karak Chai</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Chilled Old Delhi style rose essence milk studded with diced summer watermelon chunks, followed by ceremonial samovars pouring slow-boiled saffron Karak chai.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Signature Bar</span>
+<button class="text-secondary font-title-md text-title-md hover:text-primary transition-colors inline-flex items-center gap-1" onclick="openMenuModal('Mohabbat Sherbet &amp; Karak Chai')">
+                Explore <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Interactive Live Banquet Calculator & Dastarkhwan Estimator -->
+<section class="w-full bg-surface-container py-16 px-6 lg:px-12">
+<div class="max-w-7xl mx-auto bg-surface-container-lowest rounded-2xl p-8 lg:p-12 shadow-md">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5 space-y-4">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block">Interactive Banquet Planner</span>
+<h2 class="font-headline-md text-headline-md text-primary">Curate Your Dastarkhwan Service</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Estimate servings, staff allocations, and live-counter requirements for your wedding, walima, or corporate iftar. Every arrangement is tailored down to spice profiles and elderly preferences.
+          </p>
+<div class="pt-4 space-y-3">
+<div class="flex items-center gap-3 text-on-surface">
+<span class="material-symbols-outlined text-secondary">room_service</span>
+<span class="font-body-md text-body-md">Dedicated Khansama team &amp; table captain per 50 guests</span>
+</div>
+<div class="flex items-center gap-3 text-on-surface">
+<span class="material-symbols-outlined text-secondary">outdoor_grill</span>
+<span class="font-body-md text-body-md">Live charcoal sigdis &amp; authentic earthen clay tandoors</span>
+</div>
+<div class="flex items-center gap-3 text-on-surface">
+<span class="material-symbols-outlined text-secondary">sanitizer</span>
+<span class="font-body-md text-body-md">Sanitized warm rosewater hand-rinse (Tash-tari) service</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 bg-surface-container-low p-6 lg:p-8 rounded-xl shadow-inner">
+<div class="space-y-6">
+<div>
+<div class="flex justify-between items-center mb-2">
+<label class="font-title-md text-title-md text-primary">Estimated Guest Attendance</label>
+<span class="font-headline-sm text-headline-sm text-secondary" id="guest-count-val">350 Guests</span>
+</div>
+<input class="w-full accent-secondary bg-surface-variant h-2 rounded-lg cursor-pointer" id="guest-slider" max="2500" min="100" oninput="updateEstimates(this.value)" step="50" type="range" value="350"/>
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant mt-1">
+<span>100 Intimate</span>
+<span>800 Grand</span>
+<span>2,500+ Sovereign</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+<div class="bg-surface-container-lowest p-4 rounded-lg shadow-sm text-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase block mb-1">Handi Deghs</span>
+<span class="font-headline-sm text-headline-sm text-primary" id="degh-count">7 Royal Handis</span>
+<span class="font-label-lg text-label-lg text-on-surface-variant block mt-1">Slow Dum Prepared</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-lg shadow-sm text-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase block mb-1">Live Counters</span>
+<span class="font-headline-sm text-headline-sm text-primary" id="counters-count">4 Live Stations</span>
+<span class="font-label-lg text-label-lg text-on-surface-variant block mt-1">Kebab &amp; Sherbet</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-lg shadow-sm text-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase block mb-1">Hospitality Stewards</span>
+<span class="font-headline-sm text-headline-sm text-primary" id="crew-count">18 Attendants</span>
+<span class="font-label-lg text-label-lg text-on-surface-variant block mt-1">Full Mehmaan Service</span>
+</div>
+</div>
+<div class="pt-4 flex flex-col sm:flex-row items-center gap-4">
+<a class="w-full sm:w-auto flex-1 text-center py-3.5 px-6 rounded-lg bg-primary-container text-on-primary font-label-caps text-label-caps uppercase tracking-wider hover:bg-tertiary-container transition-all shadow-md" data-path="contact" href="#">
+                Request Tailored Banquet Proposal
+              </a>
+<button class="w-full sm:w-auto py-3.5 px-6 rounded-lg bg-surface-container-high text-on-surface font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-variant transition-colors" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                Explore More Dishes
+              </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Menu Tasting Experience Studio Section -->
+<section class="w-full bg-surface-bright py-20 px-6 lg:px-12">
+<div class="max-w-7xl mx-auto">
+<div class="bg-primary-container rounded-2xl text-on-primary overflow-hidden shadow-xl grid grid-cols-1 lg:grid-cols-12">
+<div class="lg:col-span-6 p-8 lg:p-14 flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary text-secondary-fixed text-label-caps font-label-caps uppercase tracking-wider mb-6">
+<span class="material-symbols-outlined text-sm">room_service</span>
+<span>Exclusive Majlis Suite</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-secondary-fixed font-normal leading-tight mb-4">
+              The Sovereign Family Tasting Session
+            </h2>
+<p class="font-body-lg text-body-lg text-on-primary/80 font-light mb-6 leading-relaxed">
+              We believe a wedding menu is a sacred trust. Prior to finalizing your ceremonial banquet, we welcome the bride, groom, and family elders to our private tasting suite in Chennai.
+            </p>
+<div class="space-y-4 pt-2">
+<div class="flex items-start gap-3.5">
+<span class="material-symbols-outlined text-secondary-fixed mt-1">tune</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-primary">Custom Spice &amp; Saffron Calibration</h4>
+<p class="font-body-md text-body-md text-on-primary/70">Adjust biryani heat, kewra intensity, and salt profiles live with the Executive Ustad Chef.</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5">
+<span class="material-symbols-outlined text-secondary-fixed mt-1">dinner_dining</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-primary">Complete Tableware Presentation</h4>
+<p class="font-body-md text-body-md text-on-primary/70">Preview hand-beaten copper deghs, gold-rimmed chinaware, floral dastarkhwan runners, and brass samovars.</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5">
+<span class="material-symbols-outlined text-secondary-fixed mt-1">groups</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-primary">Accommodates Up to 6 Family Members</h4>
+<p class="font-body-md text-body-md text-on-primary/70">A private 90-minute multi-course service dedicated exclusively to your celebration.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-10">
+<a class="inline-flex items-center gap-3 px-8 py-3.5 rounded-lg bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps uppercase tracking-widest hover:bg-secondary-fixed transition-all duration-200 shadow-md" data-path="contact" href="#">
+<span>Schedule Your Private Tasting</span>
+<span class="material-symbols-outlined text-base">calendar_month</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-6 relative min-h-[380px] lg:min-h-full">
+<img class="w-full h-full object-cover" data-alt="Intimate luxury private food tasting room with mahogany table set with opulent brass dishes, miniature dum biryani handis, candlelights, family elders seated enjoying bespoke halal culinary courses, opulent royal emerald curtains in the background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5zhZyp13bZJDS4b7Hg4A25pCu1SP6P4G8wlRyCD2QDUFDfrwPu44w5H9qy25Kw9EA8YGIalyYRToYEyxGHWhY2PlCShCDjqYEastwEK1GFuJ-Aq_MbvjfAuWD0D38eQC4ppZ8dVrrLUYhZ6rMzRutsnLjM9JaBhSG2kPtds7LcE1bNMUXG2GwGb8i_uLFrJlufULZZyE7KjNTFjFRxnZaOhmhimEIrbjOUii8d1VKwU-LB-suRU6O1g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container via-transparent to-transparent lg:hidden"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Dietary & Customization Guarantee Grid -->
+<section class="w-full bg-surface-container py-16 px-6 lg:px-12">
+<div class="max-w-7xl mx-auto">
+<div class="text-center max-w-3xl mx-auto mb-12">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest block mb-2">Integrity Without Compromise</span>
+<h2 class="font-headline-md text-headline-md text-primary">Dietary Authenticity &amp; Culinary Guarantees</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          From religious certitude to acute allergies, our operations are managed with hospital-grade segregation and ethical reverence.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Feature 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-2xl">verified_user</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-2">100% Halal Verified</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Strictly hand-slaughtered meat sourced from accredited domestic providers with complete traceability and batch certificates available on request.
+          </p>
+</div>
+<!-- Feature 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-2xl">soup_kitchen</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-2">Segregated Veg Karkhana</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Completely isolated vessels, ladles, storage units, and prep chefs for Jain and Pure-Vegetarian fare, preventing any cross-contact.
+          </p>
+</div>
+<!-- Feature 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-2xl">egg_alt</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-2">Nut &amp; Allergy Protocols</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Comprehensive allergen tracking for cashew, almond, dairy, and gluten profiles. Color-coded buffet identification and tailored courses for guests with sensitivities.
+          </p>
+</div>
+<!-- Feature 4 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-2xl">heat</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-2">Micro Heat Calibration</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Spice tolerance calibrated to your family heritage—ranging from subtle Awadhi aromatic balance to bold, fiery Peshawari and Hyderabadi warmth.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Modal for Dish Details -->
+<div class="fixed inset-0 z-50 flex items-center justify-center bg-primary/60 backdrop-blur-sm hidden p-4" id="dish-modal">
+<div class="bg-surface-container-lowest rounded-2xl max-w-lg w-full p-8 shadow-2xl relative">
+<button class="absolute top-4 right-4 text-on-surface-variant hover:text-primary p-2" onclick="closeMenuModal()">
+<span class="material-symbols-outlined text-2xl">close</span>
+</button>
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-secondary text-sm">restaurant</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Culinary Dossier</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3" id="modal-dish-title">Dish Name</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed" id="modal-dish-desc">
+        Details regarding ingredients, heritage cooking process, and presentation will be shown here.
+      </p>
+<div class="bg-surface-container-low p-4 rounded-xl space-y-2 mb-6">
+<div class="flex justify-between font-body-md text-body-md">
+<span class="text-on-surface-variant">Spice Profile:</span>
+<span class="font-semibold text-primary" id="modal-dish-spice">Medium Aromatic</span>
+</div>
+<div class="flex justify-between font-body-md text-body-md">
+<span class="text-on-surface-variant">Recommended Pairing:</span>
+<span class="font-semibold text-primary" id="modal-dish-pair">Burani Raita &amp; Sheermal</span>
+</div>
+<div class="flex justify-between font-body-md text-body-md">
+<span class="text-on-surface-variant">Allergens:</span>
+<span class="font-semibold text-primary" id="modal-dish-allergens">Dairy, Saffron</span>
+</div>
+</div>
+<div class="flex items-center justify-end gap-3">
+<button class="px-5 py-2.5 rounded-lg bg-surface-container text-on-surface font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-variant transition-colors" onclick="closeMenuModal()">
+          Close
+        </button>
+<a class="px-5 py-2.5 rounded-lg bg-primary-container text-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider hover:bg-tertiary-container transition-colors" data-path="contact" href="#">
+          Enquire For Menu
+        </a>
+</div>
+</div>
+</div>
+<script>
+    // Tab Filtering Logic
+    function filterDishes(category) {
+      const cards = document.querySelectorAll('.dish-card');
+      const buttons = document.querySelectorAll('.filter-btn');
+
+      buttons.forEach(btn => {
+        if (btn.getAttribute('data-category') === category) {
+          btn.classList.add('bg-primary-container', 'text-on-primary', 'shadow-sm');
+          btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        } else {
+          btn.classList.remove('bg-primary-container', 'text-on-primary', 'shadow-sm');
+          btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+        }
+      });
+
+      cards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Banquet Planner Dynamic Slider
+    function updateEstimates(val) {
+      const count = parseInt(val);
+      document.getElementById('guest-count-val').innerText = count + ' Guests';
+      
+      // Calculations
+      const deghs = Math.max(2, Math.ceil(count / 50));
+      const counters = count > 1000 ? 8 : (count > 500 ? 6 : (count > 250 ? 4 : 2));
+      const stewards = Math.ceil(count / 20);
+
+      document.getElementById('degh-count').innerText = deghs + ' Royal Handis';
+      document.getElementById('counters-count').innerText = counters + ' Live Stations';
+      document.getElementById('crew-count').innerText = stewards + ' Attendants';
+    }
+
+    // Dish Modal Interaction
+    const dishData = {
+      'Zafrani Gosht Dum Biryani': {
+        desc: 'Selected bone-in cuts of young goat layered with vintage Aged Basmati, slow-baked inside a dough-sealed degh with crushed Kashmiri saffron, caramelized shallots, and fresh mint sprigs. Served with hand-pounded Mirchi ka Salan.',
+        spice: 'Medium Royal Aromatic',
+        pair: 'Burani Garlic Raita & Mirchi Salan',
+        allergens: 'Milk Ghee (Nut-free on request)'
+      },
+      'Murgh Awadhi Dum Biryani': {
+        desc: 'A quintessential Lucknowi creation where chicken is par-cooked in an yakhni broth infused with rose petals and kewra before meeting scented rice for gentle dum finish.',
+        spice: 'Mild Fragrant',
+        pair: 'Kachumber & Baingan Mirch Salan',
+        allergens: 'Milk Ghee'
+      },
+      'Smoked Galouti Kebab': {
+        desc: 'Hand-mashed minced meat tendered through green papaya and seasoned with more than 160 secret herbs. Cooked over tawa and smoked with live cloves bathed in ghee.',
+        spice: 'Delicate Warm Spiced',
+        pair: 'Saffron Sheermal & Mint Chutney',
+        allergens: 'Gluten (Sheermal), Dairy'
+      },
+      'Seekh Kebab Peshawari': {
+        desc: 'Coarse lamb mince seasoned with cracked pomegranate seeds, fresh mint, coriander roots, and bird-eye chili, pressed onto wide skewers and flame-kissed.',
+        spice: 'Robust Piquant',
+        pair: 'Afghani Naan & Raw Onion Rings',
+        allergens: 'Nut-Free'
+      },
+      'Nalli Nihari Shahi': {
+        desc: 'Marrow-laden shanks simmered in an intricate flour-based stock overnight. The gravy attains a silky sheen and velvety finish.',
+        spice: 'Rich & Peppery',
+        pair: 'Tandoori Khameeri Roti',
+        allergens: 'Gluten (Wheat-based roux)'
+      },
+      'Murgh Musallam Sultani': {
+        desc: 'Sultanate court specialty where a whole chicken is bathed in almond paste, fried onion purée, saffron, and stuffed with spiced quail eggs and minced meat.',
+        spice: 'Mild Creamy & Regal',
+        pair: 'Roomali Roti & Roghani Naan',
+        allergens: 'Cashews, Almonds, Eggs, Dairy'
+      },
+      'Dal Bukhara & Paneer': {
+        desc: 'Prepared in a segregated pure-vegetarian setup. Urad lentils cooked for 24 hours over slow tandoor embers with organic dairy butter, accompanied by spiced charred paneer.',
+        spice: 'Buttery Mellow',
+        pair: 'Garlic Butter Kulcha',
+        allergens: 'Dairy'
+      },
+      'Shahi Tukda': {
+        desc: 'Handmade brioche fried in clarified butter, steeped in saffron cardamom syrup, submerged in thick condensed rabri, and enveloped in 24k pure silver and gold leaf.',
+        spice: 'Sweet Cardamom',
+        pair: 'Kahwa or Karak Tea',
+        allergens: 'Gluten, Nuts (Pistachio, Almond), Milk'
+      },
+      'Kesariya Sheer Khurma': {
+        desc: 'Ceremonial warm dessert composed of roasted sev, milk simmered until amber-hued, chironji nuts, dates, and fragrant saffron water.',
+        spice: 'Sweet Saffron Nutty',
+        pair: 'Digestive Fennel Infusion',
+        allergens: 'Gluten, Dry Fruits, Milk'
+      },
+      'Mohabbat Sherbet & Karak Chai': {
+        desc: 'Double-station beverage experience featuring refreshing chilled watermelon-infused rose milk followed by strong saffron cardamom tea brewed continuously in brass samovars.',
+        spice: 'Refreshing Rose & Strong Cardamom',
+        pair: 'Evening Refreshment',
+        allergens: 'Dairy'
+      }
+    };
+
+    function openMenuModal(title) {
+      const data = dishData[title] || {
+        desc: 'Heritage recipe prepared by master khansamas using 100% Halal certified ingredients and traditional techniques.',
+        spice: 'Balanced',
+        pair: 'Artisanal Breads',
+        allergens: 'Please enquire with concierge'
+      };
+
+      document.getElementById('modal-dish-title').innerText = title;
+      document.getElementById('modal-dish-desc').innerText = data.desc;
+      document.getElementById('modal-dish-spice').innerText = data.spice;
+      document.getElementById('modal-dish-pair').innerText = data.pair;
+      document.getElementById('modal-dish-allergens').innerText = data.allergens;
+
+      document.getElementById('dish-modal').classList.remove('hidden');
+    }
+
+    function closeMenuModal() {
+      document.getElementById('dish-modal').classList.add('hidden');
+    }
+
+    // Close on background click
+    document.getElementById('dish-modal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeMenuModal();
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-primary text-on-primary border-t border-secondary-container/30"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12"><div class="flex items-center justify-center gap-4 mb-12"><div class="h-px w-24 bg-gradient-to-r from-transparent to-secondary-container/50"></div><div class="w-2 h-2 rotate-45 border border-secondary-fixed bg-primary-container"></div><div class="h-px w-24 bg-gradient-to-l from-transparent to-secondary-container/50"></div></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"><div class="space-y-4"><div class="flex items-center gap-3"><img alt="Markaz Catering Royal Gold Emblem" class="h-8 w-auto object-contain" src="logo.png"/><span class="font-headline-sm text-headline-sm text-secondary-fixed tracking-wide uppercase">Markaz</span></div><p class="font-body-md text-body-md text-on-primary/80 leading-relaxed">Markaz Catering — 100% Halal Certified Grand Banquets &amp; Intimate Gatherings. Dedicated to noble South Asian ceremonial hospitality, exquisite spice heritage, and immaculate culinary grace.</p><div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-secondary-container/40 bg-primary-container/60"><span class="material-symbols-outlined text-secondary-fixed text-sm">verified</span><span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-wider">100% HMC Certified Halal</span></div></div><div class="space-y-3"><h4 class="font-title-lg text-title-lg text-secondary-fixed tracking-wide border-b border-secondary-container/20 pb-2">Navigation</h4><ul class="space-y-2 font-body-md text-body-md text-on-primary/70"><li class="hover:text-secondary-fixed transition-colors"><a data-path="home" href="#">Explore Markaz</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="about-us" href="#">Heritage &amp; Lineage</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="services" href="#">Catering Experiences</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="signature-menu" href="#">Royal Dastarkhwan</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="gallery" href="#">Grand Portfolios</a></li></ul></div><div class="space-y-3"><h4 class="font-title-lg text-title-lg text-secondary-fixed tracking-wide border-b border-secondary-container/20 pb-2">Ceremonial Tiers</h4><ul class="space-y-2 font-body-md text-body-md text-on-primary/70"><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Royal Walima Banquets</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Nikah &amp; Shadi Receptions</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Corporate Iftars &amp; Galas</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Intimate Dawat &amp; Milad</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="contact" href="#">Bespoke Tasting Suite</a></li></ul></div><div class="space-y-3"><h4 class="font-title-lg text-title-lg text-secondary-fixed tracking-wide border-b border-secondary-container/20 pb-2">Concierge &amp; Inquiries</h4><div class="space-y-3 font-body-md text-body-md text-on-primary/80"><p class="flex items-start gap-2.5"><span class="material-symbols-outlined text-secondary-fixed text-base mt-0.5">location_on</span><span>Thousand Lights, Mount Road, Chennai, Tamil Nadu 600006</span></p><p class="flex items-center gap-2.5"><span class="material-symbols-outlined text-secondary-fixed text-base">call</span><span>+91 90000 00000</span></p><p class="flex items-center gap-2.5"><span class="material-symbols-outlined text-secondary-fixed text-base">mail</span><span>info@markazcatering.com</span></p><div class="pt-2"><p class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-wider">Tasting Sessions By Appointment Only</p></div></div></div></div><div class="mt-12 pt-8 border-t border-secondary-container/20 flex flex-col md:flex-row items-center justify-between gap-4"><p class="font-label-lg text-label-lg text-on-primary/60 text-center md:text-left">© 2025 Markaz Halal Catering Hospitality Group. All rights reserved.</p><div class="flex items-center gap-6 font-label-caps text-label-caps text-on-primary/60 uppercase tracking-widest"><span class="hover:text-secondary-fixed transition-colors cursor-pointer">Privacy Policy</span><span class="hover:text-secondary-fixed transition-colors cursor-pointer">Terms of Service</span><span class="hover:text-secondary-fixed transition-colors cursor-pointer">Halal Standard Verification</span></div></div></div></footer></body></html>

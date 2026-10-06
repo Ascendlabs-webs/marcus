@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed-dim":"#a2d1b4","on-surface-variant":"#414844","surface-variant":"#e7e2d8","on-secondary":"#ffffff","surface-container-lowest":"#ffffff","primary-fixed":"#c6ebd5","error-container":"#ffdad6","inverse-primary":"#abcfba","outline":"#727973","surface-bright":"#fef9ef","on-secondary-fixed":"#281800","on-primary-fixed-variant":"#2d4d3d","error":"#ba1a1a","surface-container-high":"#ece8de","secondary-fixed-dim":"#edbf7a","surface-container-highest":"#e7e2d8","on-tertiary":"#ffffff","secondary":"#7b581d","secondary-fixed":"#ffddaf","secondary-container":"#ffd089","on-background":"#1d1c16","tertiary-fixed":"#bdeecf","outline-variant":"#c1c8c2","tertiary-container":"#002d1b","surface-tint":"#446554","on-primary-container":"#739582","surface-dim":"#dedad0","on-error-container":"#93000a","surface":"#fef9ef","on-tertiary-container":"#6a977d","on-surface":"#1d1c16","primary-fixed-dim":"#abcfba","primary":"#00160c","primary-container":"#0a2c1e","surface-container":"#f2ede3","on-primary-fixed":"#002114","inverse-surface":"#32302a","on-secondary-fixed-variant":"#604105","on-secondary-container":"#79571c","on-tertiary-fixed-variant":"#234f39","background":"#fef9ef","inverse-on-surface":"#f5f0e6","on-primary":"#ffffff","on-tertiary-fixed":"#002112","tertiary":"#00160b","surface-container-low":"#f8f3e9","on-error":"#ffffff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"gutter":"1.5rem","margin":"3rem","gutter-mobile":"1rem","space-sm":"0.5rem","margin-mobile":"1.25rem","space-xl":"2.5rem","space-xs":"0.25rem","space-md":"1rem","space-lg":"1.5rem"},"fontFamily":{"headline-md":["Bodoni Moda"],"label-lg":["Montserrat"],"title-lg":["Montserrat"],"headline-lg":["Bodoni Moda"],"headline-lg-mobile":["Bodoni Moda"],"display-hero":["Bodoni Moda"],"label-caps":["Montserrat"],"body-lg":["Montserrat"],"title-md":["Montserrat"],"body-md":["Montserrat"],"display-hero-mobile":["Bodoni Moda"],"headline-sm":["Bodoni Moda"]},"fontSize":{"headline-md":["28px",{"lineHeight":"36px","fontWeight":"500"}],"label-lg":["12px",{"lineHeight":"16px","fontWeight":"500"}],"title-lg":["18px",{"lineHeight":"26px","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"68px","fontWeight":"400"}],"label-caps":["11px",{"lineHeight":"16px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"300"}],"title-md":["15px",{"lineHeight":"22px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"300"}],"display-hero-mobile":["36px",{"lineHeight":"44px","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-primary-container border-b border-secondary-container/30 shadow-[0_12px_32px_-4px_rgba(0,22,12,0.35)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Markaz Catering Royal Gold Emblem" class="h-10 w-auto object-contain" src="logo.png"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-secondary-fixed tracking-wide uppercase leading-none">Markaz Catering</span><span class="font-label-caps text-label-caps text-secondary-fixed-dim/80 tracking-widest uppercase mt-1">Luxury Halal Catering</span></div></div><nav class="hidden lg:flex items-center gap-8" data-active-classes="text-secondary-fixed font-title-md border-b-2 border-secondary-fixed"><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="home" href="#">Home</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="about-us" href="#">About Us</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="services" href="#">Services</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="signature-menu" href="#">Signature Menu</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="packages" href="#">Packages</a><a aria-current="page" class="transition-colors py-2 text-secondary-fixed font-title-md border-b-2 border-secondary-fixed" data-path="gallery" href="#">Gallery</a><a class="font-title-md text-title-md text-on-primary/80 hover:text-secondary-fixed transition-colors py-2" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs pl-2 border-l border-secondary-container/20"><img alt="Profile" class="w-9 h-9 rounded-full object-cover border border-secondary-container/40 p-0.5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiSavTlYyqBGaAELoGf0WE1cegoPMSAPB6Y-wydIXr5Aph9BZmPwgg2Se0FX5ygObsSVoJR1tTWfNsV0RGCrChL8t5TZxNw7Wt6iHn1GA42ltBHlxU4K5kBlCpsal80ND98XEtHRwRik2Rk8LXLM3dlZ8KjIyzCVfYFA3-u12xz6yywCy760ig4DjROwd0MM_r82T_dbQTInf61-cpjSDCC-lcDJgsiVqrtSxqk-sN7IY8GQ-4gKWPAA"/></div><a class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider rounded-lg border border-secondary hover:bg-secondary-fixed transition-all duration-200 shadow-sm" data-path="contact" href="#">Enquire Now</a></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Heritage Breadcrumb & Sub-Nav Stripe -->
+<section class="w-full bg-surface-container-low px-6 lg:px-12 py-4">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-sm">temple_hindu</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Archive of Ceremonial Banquets</span>
+<span class="text-secondary/40 font-body-md">/</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Visual Anthology</span>
+</div>
+<div class="hidden md:flex items-center gap-6">
+<span class="font-label-caps text-label-caps text-on-surface-variant/80 uppercase tracking-widest flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> 1,200+ Grand Dawats Documented
+        </span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider font-semibold">Thousand Lights • Chennai</span>
+</div>
+</div>
+</section>
+<!-- Editorial Headline & Perspective Hero -->
+<section class="relative w-full bg-primary-container text-on-primary px-6 lg:px-12 py-20 lg:py-24 overflow-hidden">
+<!-- Subtle Emerald Geometric Motif Backdrop -->
+<div class="absolute inset-0 opacity-10 pointer-events-none flex items-center justify-center">
+<svg class="w-[800px] h-[800px] text-secondary-container" fill="none" stroke="currentColor" stroke-width="0.3" viewbox="0 0 100 100">
+<circle cx="50" cy="50" r="48"></circle>
+<circle cx="50" cy="50" r="36"></circle>
+<circle cx="50" cy="50" r="24"></circle>
+<polygon points="50,2 62,38 98,38 68,58 79,94 50,72 21,94 32,58 2,38 38,38"></polygon>
+<polygon points="50,98 38,62 2,62 32,42 21,6 50,28 79,6 68,42 98,62 62,62"></polygon>
+</svg>
+</div>
+<div class="relative max-w-7xl mx-auto flex flex-col items-center text-center">
+<div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-primary/80 mb-6 shadow-sm">
+<span class="material-symbols-outlined text-secondary-fixed text-sm">photo_camera</span>
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-widest">Markaz Photographic Archive</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-secondary-fixed max-w-4xl tracking-tight mb-6">
+        A Visual Feast of Our Grand Celebrations
+      </h1>
+<p class="font-body-lg text-body-lg text-on-primary/80 max-w-3xl font-light leading-relaxed mb-10">
+        Glimpses of real weddings, Walima receptions, corporate Iftars, and vibrant live cooking stations catered across South India with sacred precision, heritage spices, and unyielding grace.
+      </p>
+<!-- Key Stat Highlights Bar -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-6 w-full max-w-4xl pt-6 bg-primary/40 rounded-xl px-8 py-6 backdrop-blur-md">
+<div class="flex flex-col items-center">
+<span class="font-headline-md text-headline-md text-secondary-fixed">850+</span>
+<span class="font-label-caps text-label-caps text-on-primary/70 uppercase tracking-widest mt-1">Weddings Blessed</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-headline-md text-headline-md text-secondary-fixed">45,000+</span>
+<span class="font-label-caps text-label-caps text-on-primary/70 uppercase tracking-widest mt-1">Guests Feasted Dum Biryani</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-headline-md text-headline-md text-secondary-fixed">100%</span>
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest mt-1">HMC Certified Halal</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-headline-md text-headline-md text-secondary-fixed">24 K</span>
+<span class="font-label-caps text-label-caps text-on-primary/70 uppercase tracking-widest mt-1">Culinary Artistry Hours</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Filter Bar (Sticky Experience) -->
+<section class="sticky top-20 z-30 w-full bg-surface-bright shadow-sm py-4 px-6 lg:px-12">
+<div class="max-w-7xl mx-auto flex items-center justify-between gap-4 overflow-x-auto no-scrollbar">
+<div class="flex items-center gap-2 min-w-max" id="gallery-filters">
+<button class="filter-btn active-filter px-5 py-2 rounded-lg font-label-caps text-label-caps uppercase tracking-wider bg-primary text-secondary-fixed shadow-sm transition-all duration-200" data-filter="all">
+          All Moments
+        </button>
+<button class="filter-btn px-5 py-2 rounded-lg font-label-caps text-label-caps uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-all duration-200" data-filter="weddings">
+          Royal Weddings &amp; Walima
+        </button>
+<button class="filter-btn px-5 py-2 rounded-lg font-label-caps text-label-caps uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-all duration-200" data-filter="live-cooking">
+          Live Tandoor &amp; Grill
+        </button>
+<button class="filter-btn px-5 py-2 rounded-lg font-label-caps text-label-caps uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-all duration-200" data-filter="ramadan">
+          Ramadan Iftars
+        </button>
+<button class="filter-btn px-5 py-2 rounded-lg font-label-caps text-label-caps uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-all duration-200" data-filter="desserts">
+          Dessert &amp; Sherbet Bars
+        </button>
+<button class="filter-btn px-5 py-2 rounded-lg font-label-caps text-label-caps uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-all duration-200" data-filter="tablescapes">
+          Tablescapes &amp; Decor
+        </button>
+</div>
+<div class="hidden xl:flex items-center gap-3 text-secondary">
+<span class="material-symbols-outlined text-lg">filter_alt</span>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-on-surface-variant">Displaying 9 Sovereign Scenes</span>
+</div>
+</div>
+</section>
+<!-- Masonry Gallery Exhibition -->
+<section class="w-full px-6 lg:px-12 py-16 lg:py-24 bg-surface">
+<div class="max-w-7xl mx-auto">
+<!-- Masonry Grid Container with Variable Heights -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start" id="gallery-grid">
+<!-- CARD 1: Royal Walima Banquet Hall (Tablescapes / Weddings) - Tall Focus -->
+<article class="gallery-card group flex flex-col bg-surface-container rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-category="weddings tablescapes">
+<div class="relative h-96 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Opulent royal South Asian wedding Walima banquet hall with infinite symmetrical long dining tables lined with deep emerald green velvet runners, antique brushed gold tiered candelabras holding tapered ivory candles, polished brass chafing dishes reflecting warm light, set under grand crystal chandeliers in an architectural palace ball room." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBusJajHRZYqboeqiPSDXTIP-2UaMpQsQozXky4IeuIxrYJaP6dqj_eAFkjDDvO5plkj3kZpTTn35FlJ0rLkoTDtZUGKrxbslI76z1X79l-uPjgEiOi5Du3oJ9ercOJJarQqVE9X67-ExzQ2gOeO_T_rTHM2fNQrte6ne09eBKnXBOeoALZYw3Cas3p-LUmB3JFBS4eMTlUi6kHeDWlrG8uZWF9Kropz_-Y2E8JkuhmHlrTTwIn518Ulg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-md px-3 py-1 rounded-lg">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">Walima Reception</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Chennai Convention Centre</span>
+<h3 class="font-headline-sm text-headline-sm text-secondary-fixed mt-1">Royal Walima Banquet Hall</h3>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-grow">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Symmetrical grand banqueting tables draped with rich emerald velvet runners, antique brass candelabras, and hand-hammered tableware configured for an 1,800-guest sovereign gathering.
+            </p>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant/80">Imperial Grand Setup</span>
+<span class="material-symbols-outlined text-base">expand_circle_right</span>
+</div>
+</div>
+</article>
+<!-- CARD 2: Flaming Live Seekh Kebab Sigri (Live Cooking) -->
+<article class="gallery-card group flex flex-col bg-surface-container rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-category="live-cooking">
+<div class="relative h-80 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Traditional live charcoal Sigri barbecue pit with skewered juicy tender minced mutton seekh kebabs grilling over glowing orange-red charcoal embers, chef gently fanning fragrant smoke with miniature hand fan, embers glowing against dramatic dark green night atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5y-sAyGTWydKHDFGDwHKawzuawDuKdDszeYGzyXqynv0fbsCFloDKCFP9uQm9fxk2Hw2SDFyABq--KwUU_giP2HtPQWNJHHe0ESjflfqeL2M4xDYGe9r0q_pdoVDOUX72yqMp_r6eBR5_Nf68CQrPtjILf7Iq3RiyD9-mYNXY_QABjlmjRsr4xhWX4E9I9w7_3Or3BS72Mecx72GVlQxpCXK6nC2he3xtOYyrg9osX6bqQf8qQtTnSg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-md px-3 py-1 rounded-lg">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">Live Angithi</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Live Culinary Station</span>
+<h3 class="font-headline-sm text-headline-sm text-secondary-fixed mt-1">Flaming Live Seekh Kebab Sigri</h3>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-grow">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Melt-in-mouth Awadhi mutton seekh infused with royal shahi jeera, cooked live over sweet tamarind wood coals, served fresh with minted pomegranate relish.
+            </p>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant/80">Live Grill Curation</span>
+<span class="material-symbols-outlined text-base">expand_circle_right</span>
+</div>
+</div>
+</article>
+<!-- CARD 3: Grand Biryani Dum Unsealing (Weddings / Live Cooking) - Monumental Feature -->
+<article class="gallery-card group flex flex-col bg-surface-container rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-category="weddings live-cooking">
+<div class="relative h-[430px] w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Ceremonial unsealing of an oversized brass degh cooking cauldron sealed with golden atta dough, a regal turbaned chef gently cutting the seal, billowing aromatic clouds of saffron, kewra, and cardamon steam rising over glistening layered basmati rice with fried brown onions and tender lamb." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXzqdY9jqXu7B4T2_k5wDlil_QIZXlV983XcolPU0bdwG2rSoYyIFUuwnYsYzxV0BEJToa4_lEijNSA5rDI9fsIcSaSSr0NUrdkBG4HDI2babUO6tBR2rf7cKovMALdbxHuatYnHbt34Esjm4n7pHdKiFtnP2bNXMD8R1zYTINBqdecMwWdXMmQxauMNKJnVEtIQtQVA_T6WZSfYLWxr7ceQelWJ23uRHS8GJrZCZ9DTUpHNYxE0tZBA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-md px-3 py-1 rounded-lg">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">The Sacred Ritual</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Markaz Signature</span>
+<h3 class="font-headline-sm text-headline-sm text-secondary-fixed mt-1">Grand Biryani Dum Unsealing</h3>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-grow">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              The signature theatrical moment: breaking the sealed wheat pardah of an authentic copper deg, releasing sixty-year-old heirloom spice aromas before the royal wedding guests.
+            </p>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant/80">Kacchi Gosht Dum</span>
+<span class="material-symbols-outlined text-base">expand_circle_right</span>
+</div>
+</div>
+</article>
+<!-- CARD 4: Corporate Sunset Iftar Spread (Ramadan) -->
+<article class="gallery-card group flex flex-col bg-surface-container rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-category="ramadan tablescapes">
+<div class="relative h-80 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Grand sunset corporate Iftar feast setup at golden hour, marble tables laden with imported Medjool dates on silver filigree trays, golden platters of chicken kheema samosas, fresh seasonal fruits, crystal carafes of chilled Rooh Afza rose milk and fresh watermelon coolers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaXa37ebRqU3pPqzTYTDwp6ntNd1SXCcrocut2kWdEGXZpAV7bxDzllL6qPDX1o2fQJl4_LPG6pIRtw8-d0K-DY-g0_TUXMqozjz9aE2IU-o-zFyUuOGPZhbAyiUQS0-c_AmybhncGbwnExk4HmdSdF0t9JJ42CPbhZeBS-Gyz0nwmadWez_FBHwmoBbOGOqVN1uSDD8oVCxe3WO6n_hV1Q2aJdtyeQIVHCBd0Wq9bCKtte2s5wM8UMA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-md px-3 py-1 rounded-lg">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">Corporate Gathering</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">ITC Grand Chola Suite</span>
+<h3 class="font-headline-sm text-headline-sm text-secondary-fixed mt-1">Corporate Sunset Iftar Spread</h3>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-grow">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Precision executive fast-breaking arrangements featuring premium Ajwa dates, Haleem slow-braised for 14 hours, hand-crimped pastry cones, and rose-saffron cordials.
+            </p>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant/80">Ramadan Banquet Series</span>
+<span class="material-symbols-outlined text-base">expand_circle_right</span>
+</div>
+</div>
+</article>
+<!-- CARD 5: Artisanal Live Chaat Counter (Live Cooking) -->
+<article class="gallery-card group flex flex-col bg-surface-container rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-category="live-cooking">
+<div class="relative h-96 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Vibrant artisanal live Indian Chaat street food bar at a luxury wedding, smiling chef with crisp white apron drizzling sweet tamarind and spicy mint coriander chutneys over hollow golden dahi puri shells topped with roasted cumin yogurt, nylon sev, and ruby pomegranate seeds." src="https://lh3.googleusercontent.com/aida-public/AB6AXuClavvvLy4Os7ohpKop-noQPQwpIauR-qLAEjjMdmM9hq6-IxRhDicHk4fZoBsuvtV_SzlIQYPx0JhtPYYnHpJVM9q373xT5hKm_QIVt9yXDL7Bi30PRezxKW50X6wNaGno-xUpwDQCZxwCA99PY4PNV8lUh5lkdHe1Az0XAo17m8TV2qbM9jFr8eAik4xrm-_D4IYVhP-EcIQMLTVHRFDZfKe5RAOxQlIRpEoDdq-j5DGdUNHmktesBQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-md px-3 py-1 rounded-lg">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">Pre-Wedding Festive</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Sangeet &amp; Haldi Fair</span>
+<h3 class="font-headline-sm text-headline-sm text-secondary-fixed mt-1">Artisanal Live Chaat Counter</h3>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-grow">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Interactive high-tea dawat feature pairing bespoke stuffed golgappas with spiced cumin-mint water, warm kachoris, and freshly spun sweet lassis.
+            </p>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant/80">Interactive Street Feast</span>
+<span class="material-symbols-outlined text-base">expand_circle_right</span>
+</div>
+</div>
+</article>
+<!-- CARD 6: Royal Shahi Tukda & Rabri Display (Desserts) -->
+<article class="gallery-card group flex flex-col bg-surface-container rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-category="desserts">
+<div class="relative h-[360px] w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Exquisite royal Mughlai dessert table featuring ornate silver platters of Shahi Tukda, golden fried bread soaked in saffron-infused rabri cream, richly adorned with edible silver vark foil, crushed green pistachio flakes, dried rose petals, and whole green cardamoms." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5sugp6h0apXwPqBO3yUFf3za-IGv2YB_MfvSd9GJjxZuJyZf7ZfIXIuqXqRW9mW989o70KBuydzGOYowmp54czE_14CB-nSkhJhCV91rtQZPsQjTeF-oHY-gPWD4l9igA5NDY8lXyEEfx0WnrPUsunzexAhNukIYxhMIQVfgQPnu2uiQ7QwzPzAZ1Fvc0F-LJohthRmgJKh5EMgxj-cnsarkSEoov3a_iIoncJLvPjE9cqGFNLz7u-Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-md px-3 py-1 rounded-lg">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">Royal Mithai</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Shahi Meetha Bar</span>
+<h3 class="font-headline-sm text-headline-sm text-secondary-fixed mt-1">Royal Shahi Tukda &amp; Rabri Display</h3>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-grow">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Heirloom Hyderabadi double ka meetha layered with thickened whole cow milk rabri, hand-applied genuine silver leaves, and slivered Afghani pistachios.
+            </p>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant/80">Traditional Confection</span>
+<span class="material-symbols-outlined text-base">expand_circle_right</span>
+</div>
+</div>
+</article>
+<!-- CARD 7: Intimate Garden Nikkah Dawat (Weddings / Tablescapes) -->
+<article class="gallery-card group flex flex-col bg-surface-container rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-category="weddings tablescapes">
+<div class="relative h-80 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Intimate twilight garden Nikkah lawn banquet lit with warm fairy lights hanging from ancient banyan branches, white jasmine floral arches, brass Moroccan lanterns on low emerald seating cushions and royal dastarkhwan dining rugs under embroidered ivory canopies." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqApuSvB6gcOfTa9UNEJ6TRyK-qz26vedxhfBLv3gAPMTTIDudFuLENdi86RIdE83prpl100FqYQeCRE6WauvkiwVkq8N4ssk8DFXLTF5z3J0pmBFgxwayN5yXbIXIHzFgnrDIrK4Xm_Legh27-EB8OFYVHblzRCcmlfeOA4CKbWI8TrhhHOZVJVyzReebfpi6ilvhGuG_ab9ElYyHhFYk7zoFMUTI4cUWaukab21BnEilJUU990lPgg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-md px-3 py-1 rounded-lg">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">Intimate Nikkah</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Private Estate, ECR Coast</span>
+<h3 class="font-headline-sm text-headline-sm text-secondary-fixed mt-1">Intimate Garden Nikkah Dawat</h3>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-grow">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              A serene 150-guest open-air celebration harmonizing live Sheesh-Tawook spits, hand-woven floor Dastarkhwan setups, and fresh mogra flower chandeliers.
+            </p>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant/80">Courtyard Dawat</span>
+<span class="material-symbols-outlined text-base">expand_circle_right</span>
+</div>
+</div>
+</article>
+<!-- CARD 8: Traditional Zafrani Chai & Paan Counter (Desserts / Live Cooking) -->
+<article class="gallery-card group flex flex-col bg-surface-container rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-category="desserts live-cooking">
+<div class="relative h-96 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Elaborate traditional brass samovar tea counter dispensing steaming hot zafrani saffron cardamom milk chai into terracotta clay kulhads, adjacent to a decorative silver paan station with neatly wrapped green betel leaf meetha paan pyramids garnished with silver pearls." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIejcRElSiQPnhzevwgosC953ZD0QWaedKP73A82c_S--pNGgS9ZbA8yJeJZTAtlgLr4FR7SlOvOSWoSA9cBFhE0j5CzoHxrTi44EUYvQlj7J202LX33k2YWgIDu3mmtWkBWWGQWmC2DUt2HVjFzB2PSqCjUvsxTUxLm4RicSE3ej7YF6NB_hh7hACy5pHLvYt6a8TcYsavC4Nk-GkegGlCOqfsY5h3f4sO202Z0-sQuGcpoT4waeWmQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-md px-3 py-1 rounded-lg">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">Digestif &amp; Hospitality</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Shahi Mehfil Concluding</span>
+<h3 class="font-headline-sm text-headline-sm text-secondary-fixed mt-1">Traditional Zafrani Chai &amp; Paan</h3>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-grow">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Steaming Kashmiri saffron chai served in baked terracotta cups, accompanied by hand-rolled Maghai meetha paan stuffed with gulkand, tutty-fruity, and edible gold dust.
+            </p>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant/80">Royal Chai Khana</span>
+<span class="material-symbols-outlined text-base">expand_circle_right</span>
+</div>
+</div>
+</article>
+<!-- CARD 9: Master Chef Finishing Handi Garnish (Weddings / Live Cooking) -->
+<article class="gallery-card group flex flex-col bg-surface-container rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-category="weddings live-cooking">
+<div class="relative h-80 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Close up action shot of a master Mughlai chef in formal black chef coat with gold embroidery delicately placing julienned ginger, fresh coriander sprigs, and a swirl of rich clotted cream onto a steaming heavy clay handi of slow-simmered rich mutton korma." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwMwEfSigtQo52YTISlaFNxyQRx1Ptje-asIiNSOosxE7FB_nOP_8-pyXqmKuI5PsMx7BUCXkOEiwZ63YfQvVSYTvXMCmJyymSP-9hbGx9udrj8YunohkK94LoCTpoJt5CRfmolw5uxBipSx6yknFSAvizs7NTZdeuXlS_d4SEC94C2jyXHy93smlhz00Z5w3bidU2UkjgSK0q_nL6h3RGNoIUBvEFwiarJzdPLiWgEwqHgl4gLEql2Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-md px-3 py-1 rounded-lg">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider">Mastery &amp; Lineage</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 text-on-primary">
+<span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-widest">Backstage Precision</span>
+<h3 class="font-headline-sm text-headline-sm text-secondary-fixed mt-1">Master Chef Handi Finishing</h3>
+</div>
+</div>
+<div class="p-6 flex flex-col justify-between flex-grow">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Every ceremonial cauldron undergoes rigorous quality checks by our Ustad bawarchis, honoring multi-generational recipes rooted in Arcot and Lucknowi courts.
+            </p>
+<div class="mt-4 pt-4 flex items-center justify-between text-secondary">
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant/80">Culinary Pedigree</span>
+<span class="material-symbols-outlined text-base">expand_circle_right</span>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Editorial Testimonial Showcase with Architectural Arch Motif -->
+<section class="w-full px-6 lg:px-12 py-16 bg-surface-container-low">
+<div class="max-w-5xl mx-auto relative bg-primary-container rounded-2xl p-10 lg:p-16 text-on-primary shadow-xl overflow-hidden">
+<!-- Decorative Islamic Arch vector overlay -->
+<div class="absolute -right-12 -bottom-16 w-80 h-80 opacity-15 pointer-events-none text-secondary-fixed">
+<svg fill="currentColor" viewbox="0 0 100 100">
+<path d="M50 0 C25 20 20 50 20 100 L80 100 C80 50 75 20 50 0 Z"></path>
+</svg>
+</div>
+<div class="relative z-10 flex flex-col md:flex-row items-center gap-10">
+<!-- Groom & Bride Portrait Vignette -->
+<div class="w-36 h-36 lg:w-44 lg:h-44 rounded-full overflow-hidden flex-shrink-0 border-4 border-secondary-container/40 shadow-lg">
+<img class="w-full h-full object-cover" data-alt="Dignified South Asian bride and groom in emerald green and champagne gold ceremonial wedding sherwani and lehenga smiling together during their Walima reception dinner." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvqzSuCOriTIa3OuiwwYP8pCbZhD0gLXnNK8wvzIoeoazV08MXgZubki7itAALgtQMYdG2mkPZLy32HuruoEcWRqxy2vXY-q1-kaSK6o-wZCxHiHmj3TH_iAc-q-jXTnDqEQkb4lXgzwZSVzBHRBSH1Xo7kaLq7ufwscZDdtgbe7f0pgwhFzz2H_FyCO2xD_rmuBH8gKVKfOYIoGy4FRnQLYlQcUL8t9Nwzodp2pMKeva5BbNTCYCGZg"/>
+</div>
+<div class="flex flex-col text-left space-y-4">
+<div class="flex items-center gap-1 text-secondary-fixed">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-wider ml-2">Walima Review</span>
+</div>
+<blockquote class="font-headline-sm text-headline-sm text-surface-bright font-normal italic leading-snug">
+            “Markaz made our Walima effortless and memorable. Our guests are still raving about the Mutton Dum Biryani months later. The live grill hospitality was unmatched.”
+          </blockquote>
+<div class="pt-2">
+<p class="font-title-md text-title-md text-secondary-fixed">Dr. Tariq &amp; Ayesha Rahman</p>
+<p class="font-label-caps text-label-caps text-on-primary/70 uppercase tracking-widest mt-0.5">Walima for 1,200 Guests • Leela Palace, Chennai</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Live Instagram Synchronized Feed & Behind the Scenes -->
+<section class="w-full px-6 lg:px-12 py-16 bg-surface">
+<div class="max-w-7xl mx-auto flex flex-col items-center">
+<div class="flex flex-col items-center text-center mb-10">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-secondary text-base">camera</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Live Social Chronicles</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Follow @MarkazCatering for Live Stories</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-2">
+          Real-time dispatches from banquets across Tamil Nadu, Bangalore, and Hyderabad. Daily preparation stories, spice roasting footage, and live plating.
+        </p>
+</div>
+<!-- Instagram Visual Strip -->
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 w-full">
+<!-- IG 1 -->
+<div class="relative group rounded-lg overflow-hidden bg-surface-container aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Top down flat lay of royal dry spices, star anise, green cardamom, cinnamon sticks and saffron threads scattered on dark stone surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwPkEp-BD2u280HsUKr_w6wDqQxejFWXnSRZrIdwPs0Wa-i_AoNsyAgovetpF13xZ2OmEh4wVk3hhinGnY2E5IIn7gX7ruuPbN9G0uhsxiwSN-hDke_DMRfL253_Rt3WexHuzDOr-Uny68xx7R-9usnVQF19Q5Rvp4ouQhpIp9m-ndcrCxxxTkl60NcR2JaU-iDC1LGVZ6f4qW7YILIvNEDcC-QTPquEA9JGygmGra-5UVplnwxwQ2Wg"/>
+<div class="absolute inset-0 bg-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-2xl">favorite</span>
+</div>
+</div>
+<!-- IG 2 -->
+<div class="relative group rounded-lg overflow-hidden bg-surface-container aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Freshly baked butter garlic naan emerging on long skewers from scorching traditional clay tandoor oven with charred crispy edges." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnBvklxY2GDSIcxrVRgy4gANlc1Y-obfA4XcMGMSob5Tm_eFs-AFHljcFHFAGV4CqsLZNZHvNijTeL2I7OmxODkMdhB-kUyzOuDgFg9B3Zp1K_1S5vCs8WoXMijLvIgpUw3bgEFjO5fFL9Ccm-mmFOACebi3bP5sPW4ZYYLR3B6tMuay58BW4cOfE_M6zH3rqhtzvceUjxOb5URBjb-OF9eMWVdyjAGSUMyBUf-j78zGsHKe-cHoehHg"/>
+<div class="absolute inset-0 bg-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-2xl">play_circle</span>
+</div>
+</div>
+<!-- IG 3 -->
+<div class="relative group rounded-lg overflow-hidden bg-surface-container aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Close up of a banquet captain in white gloves presenting a vintage gold tray of chilled pistachio badam kheer dessert glasses." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzOHX68QPZtIMXJgzcdNtQPVsoIlqSZ9ywW3ajAlhziSGvu9yz2x83JKl858R1kmTqB_VjqOkvihHFOt1AmyHpauKV2w2ZXmN9sZK1wIONoZdWRQ5O1UE7ml55ZOwB2bHUE6rSw14WPWlDDnAw-kxbL7_gYzIhHC8w6NGBZcJxRjv_nKZ5In3ICQuJ_uGIQXZOPhaoGZcLpgIND6KlzmF9Uv04TPtTo2VBAb6nKQe8d6eM5KuOjiYPvg"/>
+<div class="absolute inset-0 bg-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-2xl">favorite</span>
+</div>
+</div>
+<!-- IG 4 -->
+<div class="relative group rounded-lg overflow-hidden bg-surface-container aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Overhead view of glistening tender chicken tikka boti marinated with Kashmiri chili on smoking charcoal skewers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoo5A5NdLjL81FyzswdTo5qm3nvsj4Juko0IdnI6MokVlYShswcqukQdxoAkmB6CYd1oAbYPDle5DBmuq0dDoyMu_u3i31ombSNsXdlfy9YUl6pjBHsAEhMNYzf63GDLTIwqIPrKlcgmjYfEgsM5MUU6gWuuVoNoL8GwTUTfpamQEUVQMod50K44KfQoadRpCFfpbKTQErjEwIBFLcUTZtVqJwiSZpc6gNWisM3fQRgkcHe-C59cYz7g"/>
+<div class="absolute inset-0 bg-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-2xl">favorite</span>
+</div>
+</div>
+<!-- IG 5 -->
+<div class="relative group rounded-lg overflow-hidden bg-surface-container aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Intricate golden calligraphy signage on green backdrop indicating the Markaz 100 percent Halal Certification seal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXCHoKGyO0-GjYoJyqdUeGu3k3SYfmSFUkgecHJOw5UuBHmLQA9cXryjSBWnskAubI4EPYbrvtdnAWUK9kRfW1LoUWdK6ZBSnZiSYV8nkJglaXOZsvNAf7ZaYYWmuTiEbLdjl1nkWSz9aLYrb10Pszj7mkNzcLDEdD943GX0w98MgDM3j4wPMkAhxqsNIQ0-oyiEd_6kkrtFerIZ0Rz1wiJ8mMU24ii-2AiW6Ga_OlzcRQv9PSBIPSGw"/>
+<div class="absolute inset-0 bg-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-2xl">verified</span>
+</div>
+</div>
+<!-- IG 6 -->
+<div class="relative group rounded-lg overflow-hidden bg-surface-container aspect-square shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Artisanal glass dispensers filled with rose sherbet and golden saffron badam milk placed on a lit ice bar sculpture." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1QXHb47NpcqgbFvvWdh-Cw8aUHKpqUQ7F__pKsUsSoJmqMLrGU3kl2VW66ZajuysktUFj_wObCohPQ-or40nwSUaz8jkR9jreQ-e8t26Uqkm2y7hId_QtE0RyTJ_oUvu8BZleE3PP09H5rGgD6dzFFFKvLNRhIh6Lar298ZbzHrgcLTmO22ukO6lGljjpqclDqgVp9Q2P0WW-uzBQdOz2pupdWwGS1G5xHn6RQOTC1A8Pui6Z_4Yemg"/>
+<div class="absolute inset-0 bg-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-2xl">favorite</span>
+</div>
+</div>
+</div>
+<div class="mt-8">
+<a class="inline-flex items-center gap-2 px-6 py-2.5 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-caps text-label-caps uppercase tracking-wider transition-all duration-200 shadow-sm" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-secondary text-sm">open_in_new</span>
+<span>View Real-Time Highlights On Instagram</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Grand Consultation & Tasting Suite CTA Banner -->
+<section class="w-full bg-primary text-on-primary px-6 lg:px-12 py-20 relative overflow-hidden">
+<div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">
+<div class="flex flex-col max-w-2xl text-left">
+<div class="inline-flex items-center gap-2 mb-3">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed"></span>
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-widest">Private Culinary Consultations</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-secondary-fixed tracking-tight leading-tight">
+          Experience the Markaz Dastarkhwan Firsthand
+        </h2>
+<p class="font-body-lg text-body-lg text-on-primary/80 mt-4 leading-relaxed font-light">
+          We invite families, banquet hosts, and wedding planners to our Thousand Lights tasting suite. Sample our slow-cooked Awadhi mutton, tandoor specials, and royal desserts before confirming your sacred date.
+        </p>
+<div class="flex flex-wrap items-center gap-6 mt-8 font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-wider">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-base">check_circle</span>
+            Private 4-Course Tasting
+          </span>
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-base">check_circle</span>
+            Custom Menu Curation
+          </span>
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-base">check_circle</span>
+            Per-Plate Transparent Estimates
+          </span>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row lg:flex-col gap-4 w-full sm:w-auto flex-shrink-0">
+<a class="inline-flex items-center justify-center px-8 py-4 bg-secondary-container text-on-secondary-fixed font-label-caps text-label-caps uppercase tracking-widest rounded-lg hover:bg-secondary-fixed transition-all duration-300 shadow-md" data-path="contact" href="#">
+<span class="material-symbols-outlined mr-2 text-base">restaurant</span>
+          Reserve Tasting Session
+        </a>
+<a class="inline-flex items-center justify-center px-8 py-4 bg-primary-container text-secondary-fixed font-label-caps text-label-caps uppercase tracking-widest rounded-lg hover:bg-tertiary-container transition-all duration-300 border border-secondary-container/30" data-path="packages" href="#">
+<span class="material-symbols-outlined mr-2 text-base">menu_book</span>
+          Explore Royal Packages
+        </a>
+</div>
+</div>
+</section>
+</div>
+<!-- Gallery Filtering Vanilla JS Logic -->
+<script>
+  (function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.gallery-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-filter');
+
+        // Toggle active styling
+        filterButtons.forEach(btn => {
+          btn.classList.remove('bg-primary', 'text-secondary-fixed', 'shadow-sm');
+          btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+
+        button.classList.add('bg-primary', 'text-secondary-fixed', 'shadow-sm');
+        button.classList.remove('bg-surface-container', 'text-on-surface-variant');
+
+        // Filter cards
+        cards.forEach(card => {
+          const category = card.getAttribute('data-category') || '';
+          if (filter === 'all' || category.includes(filter)) {
+            card.style.display = 'flex';
+            setTimeout(() => {
+              card.style.opacity = '1';
+              card.style.transform = 'translateY(0)';
+            }, 10);
+          } else {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(8px)';
+            setTimeout(() => {
+              card.style.display = 'none';
+            }, 200);
+          }
+        });
+      });
+    });
+  })();
+</script></main><footer class="w-full bg-primary text-on-primary border-t border-secondary-container/30"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12"><div class="flex items-center justify-center gap-4 mb-12"><div class="h-px w-24 bg-gradient-to-r from-transparent to-secondary-container/50"></div><div class="w-2 h-2 rotate-45 border border-secondary-fixed bg-primary-container"></div><div class="h-px w-24 bg-gradient-to-l from-transparent to-secondary-container/50"></div></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"><div class="space-y-4"><div class="flex items-center gap-3"><img alt="Markaz Catering Royal Gold Emblem" class="h-8 w-auto object-contain" src="logo.png"/><span class="font-headline-sm text-headline-sm text-secondary-fixed tracking-wide uppercase">Markaz</span></div><p class="font-body-md text-body-md text-on-primary/80 leading-relaxed">Markaz Catering — 100% Halal Certified Grand Banquets &amp; Intimate Gatherings. Dedicated to noble South Asian ceremonial hospitality, exquisite spice heritage, and immaculate culinary grace.</p><div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-secondary-container/40 bg-primary-container/60"><span class="material-symbols-outlined text-secondary-fixed text-sm">verified</span><span class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-wider">100% HMC Certified Halal</span></div></div><div class="space-y-3"><h4 class="font-title-lg text-title-lg text-secondary-fixed tracking-wide border-b border-secondary-container/20 pb-2">Navigation</h4><ul class="space-y-2 font-body-md text-body-md text-on-primary/70"><li class="hover:text-secondary-fixed transition-colors"><a data-path="home" href="#">Explore Markaz</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="about-us" href="#">Heritage &amp; Lineage</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="services" href="#">Catering Experiences</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="signature-menu" href="#">Royal Dastarkhwan</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="gallery" href="#">Grand Portfolios</a></li></ul></div><div class="space-y-3"><h4 class="font-title-lg text-title-lg text-secondary-fixed tracking-wide border-b border-secondary-container/20 pb-2">Ceremonial Tiers</h4><ul class="space-y-2 font-body-md text-body-md text-on-primary/70"><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Royal Walima Banquets</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Nikah &amp; Shadi Receptions</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Corporate Iftars &amp; Galas</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="packages" href="#">Intimate Dawat &amp; Milad</a></li><li class="hover:text-secondary-fixed transition-colors"><a data-path="contact" href="#">Bespoke Tasting Suite</a></li></ul></div><div class="space-y-3"><h4 class="font-title-lg text-title-lg text-secondary-fixed tracking-wide border-b border-secondary-container/20 pb-2">Concierge &amp; Inquiries</h4><div class="space-y-3 font-body-md text-body-md text-on-primary/80"><p class="flex items-start gap-2.5"><span class="material-symbols-outlined text-secondary-fixed text-base mt-0.5">location_on</span><span>Thousand Lights, Mount Road, Chennai, Tamil Nadu 600006</span></p><p class="flex items-center gap-2.5"><span class="material-symbols-outlined text-secondary-fixed text-base">call</span><span>+91 90000 00000</span></p><p class="flex items-center gap-2.5"><span class="material-symbols-outlined text-secondary-fixed text-base">mail</span><span>info@markazcatering.com</span></p><div class="pt-2"><p class="font-label-caps text-label-caps text-secondary-fixed-dim uppercase tracking-wider">Tasting Sessions By Appointment Only</p></div></div></div></div><div class="mt-12 pt-8 border-t border-secondary-container/20 flex flex-col md:flex-row items-center justify-between gap-4"><p class="font-label-lg text-label-lg text-on-primary/60 text-center md:text-left">© 2025 Markaz Halal Catering Hospitality Group. All rights reserved.</p><div class="flex items-center gap-6 font-label-caps text-label-caps text-on-primary/60 uppercase tracking-widest"><span class="hover:text-secondary-fixed transition-colors cursor-pointer">Privacy Policy</span><span class="hover:text-secondary-fixed transition-colors cursor-pointer">Terms of Service</span><span class="hover:text-secondary-fixed transition-colors cursor-pointer">Halal Standard Verification</span></div></div></div></footer></body></html>
